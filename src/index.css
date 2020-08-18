@@ -6,7 +6,7 @@ html {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #71AE74;
+  background-color: #ffffff;
 }
 
 code {
@@ -18,7 +18,10 @@ a {
   text-decoration: none;
 }
 
-input, button { border:none; } 
+input,
+button {
+  border: none;
+}
 
 button:focus {
   outline: 0;
@@ -29,6 +32,29 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.small-green-button {
+  background: #65b017;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 14px;
+}
+
+.button-charm {
+  padding: 6px 35px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.big-block {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 
 /* .green-button {
   cursor: pointer;

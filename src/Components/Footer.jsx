@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import "./Footer.css";
+import "../CSS/Footer.css";
 
 class Footer extends Component {
   render() {
     return (
       <>
         <div className="footer">
-          <div className="d-flex footer-content w-100">
-            <div className="d-flex flex-column align-items-start col-3">
+          <div className="d-flex footer-content row w-100">
+            <div className="d-flex flex-column align-items-start col-12 col-lg-3  col-sm-6">
               <div className="d-flex flex-column align-items-center font-weight-bold mb-3">
                 <span style={{ fontSize: "30px" }}>基隆市政府</span>
                 <span style={{ fontSize: "11px" }}>
@@ -46,13 +46,13 @@ class Footer extends Component {
                     使用意見調查
                   </button>
                 </div>
-                <div>
+                <div className="footer-list">
                   更新日期 109 - 08 - 15
                   <br /> 瀏覽人次 330,934,776
                 </div>
               </div>
             </div>
-            <div className="d-flex col-3">
+            <div className="d-flex col-12 col-lg-3  col-sm-6">
               <div className="d-flex flex-column w-50">
                 <div className="footer-block">
                   <span className="footer-title mb-3">訊息快報</span>
@@ -83,7 +83,7 @@ class Footer extends Component {
                 </div>
               </div>
             </div>
-            <div className="d-flex flex-column col-3">
+            <div className="d-flex flex-column col-12 col-lg-3  col-sm-6">
               <div className="footer-block">
                 <span className="footer-title mb-3">基隆服務</span>
                 <div className="d-flex">
@@ -126,7 +126,7 @@ class Footer extends Component {
                 </ul>
               </div>
             </div>
-            <div className="d-flex flex-column col-3">
+            <div className="d-flex flex-column col-12 col-lg-3  col-sm-6">
               <div className="footer-block">
                 <span className="footer-title mb-3">機關網站</span>
                 <div className="d-flex">

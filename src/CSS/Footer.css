@@ -1,0 +1,42 @@
+.footer {
+  color: #ffffff;
+  background-color: #4a4a4a;
+  width: 100%;
+}
+
+.footer section {
+  color: #595959;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.footer-content {
+  padding: 40px;
+}
+
+.footer-title {
+  display: block;
+  font-size: 20px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.footer-subtitle {
+  font-size: 18px;
+  color: #B7B7B7;
+  display: block;
+}
+
+.footer-list {
+  font-size: 15x;
+  margin-bottom: 30px;
+}
+
+.footer-block{
+    margin-right: 30px;
+}
+
+.copyright{
+    padding: 10px;
+    height: 120px;
+}
