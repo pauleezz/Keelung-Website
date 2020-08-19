@@ -5,19 +5,14 @@ import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
 import CharmKeelung from "../Components/CharmKeelung.jsx";
 import News from "../Components/News.jsx";
+import KeelungService from "../Components/KeelungService.jsx";
 
 class Home extends Component {
   render() {
     return (
       <div>
         <Navbar />
-        <div className="big-block">
-          <div className="d-flex flex-column align-items-center justify-content-center home-title mb-3">
-            <span className="home-title-gray">KEELUNG SERVICE</span>
-            <span className="home-title-green">基隆服務</span>
-          </div>
-          <div></div>
-        </div>
+        <KeelungService />
 
         <div className="big-block">
           <div className="d-flex flex-column align-items-start justify-content-center home-title mb-3">
