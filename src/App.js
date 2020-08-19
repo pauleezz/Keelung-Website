@@ -5,7 +5,7 @@ import './App.css';
 const routes = route();
 
 function App() {
-  return <div className="app">{routes}</div>;
+  return <div>{routes}</div>;
 }
 
 export default App;
