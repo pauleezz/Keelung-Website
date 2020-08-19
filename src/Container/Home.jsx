@@ -19,8 +19,35 @@ class Home extends Component {
           <div></div>
         </div>
 
+        <div className="big-block">
+          <div className="d-flex flex-column align-items-start justify-content-center home-title mb-3">
+            <span className="home-title-gray">APPLICATION & SUBSIDY</span>
+            <span className="home-title-green">補助 / 申辦專區</span>
+          </div>
+          <div className="d-flex row">
+            <div className="subsidy-blcok col-12 col-lg-6 mb-2">
+              <img
+                src="pictures/annie-spratt-U_Ff4ohzLSw-unspl.png"
+                className="subsidy-image"
+              />
+              <div className="subsidy-title d-flex align-items-center justify-content-center">
+                補助申請服務
+              </div>
+            </div>
+            <div className="subsidy-blcok col-12 col-lg-6 mb-2">
+              <img
+                src="pictures/avel-chuklanov-DUmFLtMeAbQ-uns.png"
+                className="subsidy-image"
+              />
+              <div className="subsidy-title d-flex align-items-center justify-content-center">
+                線上申辦專區
+              </div>
+            </div>
+          </div>
+        </div>
+
         <News />
-        
+
         <CharmKeelung />
         <div className="big-block">
           <div className="d-flex flex-column align-items-start justify-content-center home-title mb-3">

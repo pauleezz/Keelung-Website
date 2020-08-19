@@ -51,8 +51,15 @@ ul {
 }
 
 .big-block {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.small-circle{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #ffffff;
 }
 
 
