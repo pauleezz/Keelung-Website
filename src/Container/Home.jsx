@@ -19,7 +19,7 @@ class Home extends Component {
           <KeelungService />
           <div className="d-flex flex-row align-items-start justify-content-center home-title mt-3">
             <button className="switch_left">主題服務</button>
-            <button className="switch_left">分眾服務</button>
+            <button className="switch_right">分眾服務</button>
           </div>
 
           <div className="big-block">
