@@ -149,9 +149,33 @@
             width: "360px",
             height: "340px", */
 
+
 .switch_left{
-  border-radius: 10px;
+  position: absolute;
+  z-index: 1000;
+  left:22%;
+  border-style: outset;
+  border-radius: 50px;
+  background-color: white;
+  color: #65b017;
+  font-weight:bold ;
+  font-size: x-large;
+  height: 7%;
+  width: 30%;
 }
 .switch_right{
-  border-radius:10px;
+  position: absolute;
+  z-index: 100;
+  left: 48%;
+  border-style: outset;
+  border-radius: 50px;
+  background-color: #65b017;
+  color: white;
+  font-weight:bold ;
+  font-size: x-large;
+  height: 7%;
+  width: 30%;
+}
+.icon_but{
+  width: 35%;
 }
