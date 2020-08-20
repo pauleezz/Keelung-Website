@@ -101,6 +101,7 @@
   left: 10%;
   top: 15%;
   overflow: hidden;
+  width: 40%;
 }
 
 #reborn {
@@ -131,13 +132,15 @@
 }
 
 .title-small {
-  font-size: 54px;
+  font-size: 50px;
   font-weight: 700;
 }
 
 .vertical {
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
+  display: block;
+  width:100px
 }
 
 /* 

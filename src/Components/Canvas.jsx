@@ -26,13 +26,13 @@ class Canvas extends Component {
             </div>
             <div className="title-small">IS CHANGING</div>
           </div>
-          <div className="vertical">
+          {/* <div className="vertical">
             基隆正在改變中
             <br />
             帶來海洋城市的新風貌與新能量
             <br />
             與您魅力見面
-          </div>
+          </div> */}
         </div>
 
         <img src="pictures/img_bg.png" className="w-100 bg-img" />
