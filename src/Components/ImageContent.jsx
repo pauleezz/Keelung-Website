@@ -33,7 +33,7 @@ class ImageContent extends Component {
             paddingLeft: "4%",
             borderRadius: "50px",
             width: "40%",
-            height: "10%",
+            height: "13%",
             fontSize: "18px",
             backgroundImage:
               "linear-gradient(to left, rgba(0,0,0,0), rgba(255,255,255,100))",
@@ -45,7 +45,7 @@ class ImageContent extends Component {
           }}
           className="d-flex flex-column"
         >
-          <h1>{title}</h1>
+          <span style={{fontSize: "38px"}}>{title}</span>
           <div className="d-flex">{this.renderhref(href)}</div>
         </div>
       </div>

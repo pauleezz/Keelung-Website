@@ -6,15 +6,16 @@ class News extends Component {
   render() {
     return (
       <div className="big-block d-flex row">
-        <div className="d-flex align-items-center justify-content-center col-12 col-lg-6">
+        <div className="d-flex align-items-center justify-content-center col-12 col-lg-5">
           <img
-            class="d-block w-50"
+            class="d-block"
             src="/pictures/ShowImgashx.png"
             alt="First slide"
+            style={{width: "70%"}}
           />
         </div>
 
-        <div className="col-12 col-lg-6">
+        <div className="col-12 col-lg-7">
           <div className="d-flex flex-column align-items-end justify-content-center home-title mb-3">
             <span className="home-title-gray">NEWS</span>
             <span className="home-title-green">訊息快報</span>

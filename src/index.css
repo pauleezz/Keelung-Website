@@ -55,7 +55,7 @@ ul {
   padding-bottom: 30px;
 }
 
-.small-circle{
+.small-circle {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -63,11 +63,31 @@ ul {
   font-weight: bold;
 }
 
-.relative{
+.relative {
   position: relative;
 }
 
+.gold-block {
+  color: #6a5719;
+  background: #e9e1c9;
+  font-size: 32px;
+}
 
+.small-shadow {
+  box-shadow: 1px 1px 2px gray;
+}
+
+.gray-box {
+  background: #f7f7f7;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 22.5px 0 22.5px 39.0px;
+  border-color: transparent transparent transparent #569A3F;
+}
 /* .green-button {
   cursor: pointer;
 } */

@@ -15,7 +15,14 @@ class OnlineApply extends Component {
             ["線上申辦專區", "/"],
           ]}
         />
-        <div className="app"></div>
+        <div className="app">
+          <div className="d-flex flex-column align-items-center justify-content-center py-5">
+            <div className="gold-block my-2 px-5 py-3">線上申辦地政謄本</div>
+            <div className="gold-block my-2 px-5 py-3">線上申請戶籍謄本</div>
+            <div className="gold-block my-2 px-5 py-3">線上申請除戶謄本</div>
+            <div className="gold-block my-2 px-5 py-3">線上申請戶口名簿</div>
+          </div>
+        </div>
         <Footer />
       </div>
     );
