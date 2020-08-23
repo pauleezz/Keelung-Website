@@ -177,5 +177,9 @@
   width: 30%;
 }
 .icon_but{
-  width: 35%;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  width: 100px;
+  height: 100px;
+  
 }
