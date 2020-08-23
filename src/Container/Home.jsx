@@ -14,7 +14,7 @@ class Home extends Component {
       <div>
         <Navbar />
         <Canvas />
-        
+
         <div className="app">
           <KeelungService />
           <div className="d-flex align-items-start justify-content-center home-title mt-3">
@@ -91,9 +91,12 @@ class Home extends Component {
               <span className="home-title-gray">STATISTICS</span>
               <span className="home-title-green">統計指標</span>
             </div>
+            <div>
+              <img src="/pictures/statistic.png" style={{ width: "100%" }}/>
+            </div>
           </div>
 
-          <div className="d-flex flex-column align-items-center justify-content-center big-block">
+          {/* <div className="d-flex flex-column align-items-center justify-content-center big-block">
             <div className="d-flex flex-column align-items-center justify-content-center home-title mb-3">
               <span className="home-title-gray">CONNECT WITH US</span>
               <span className="home-title-green">與我們聯繫</span>
@@ -116,7 +119,7 @@ class Home extends Component {
                 <button id="button-subscribe">立即訂閱</button>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <Footer />
         </div>

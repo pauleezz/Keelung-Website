@@ -7,7 +7,7 @@ class Footer extends Component {
       <>
         <div className="footer">
           <div className="d-flex footer-content row w-100">
-            <div className="d-flex flex-column align-items-start col-12 col-lg-3  col-sm-6">
+            <div className="d-flex flex-column align-items-start col-12 col-xl-3 col-md-6">
               <div className="d-flex flex-column align-items-center font-weight-bold mb-3">
                 <span style={{ fontSize: "30px" }}>基隆市政府</span>
                 <span style={{ fontSize: "11px" }}>
@@ -52,7 +52,7 @@ class Footer extends Component {
                 </div>
               </div>
             </div>
-            <div className="d-flex col-12 col-lg-3  col-sm-6">
+            <div className="d-flex col-12 col-xl-3 col-md-6">
               <div className="d-flex flex-column w-50">
                 <div className="footer-block">
                   <span className="footer-title mb-3">訊息快報</span>
@@ -83,7 +83,7 @@ class Footer extends Component {
                 </div>
               </div>
             </div>
-            <div className="d-flex flex-column col-12 col-lg-3  col-sm-6">
+            <div className="d-flex flex-column col-12 col-xl-3 col-md-6">
               <div className="footer-block">
                 <span className="footer-title mb-3">基隆服務</span>
                 <div className="d-flex">
@@ -126,7 +126,7 @@ class Footer extends Component {
                 </ul>
               </div>
             </div>
-            <div className="d-flex flex-column col-12 col-lg-3  col-sm-6">
+            <div className="d-flex flex-column col-12 col-xl-3  col-sm-6">
               <div className="footer-block">
                 <span className="footer-title mb-3">機關網站</span>
                 <div className="d-flex">

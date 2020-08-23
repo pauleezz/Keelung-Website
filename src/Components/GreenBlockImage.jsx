@@ -1,22 +1,21 @@
 import React, { Component } from "react";
 
-class GreenBlockWithoutTitle extends Component {
+class GreenBlockImage extends Component {
   renderServices = (serviceList) =>
     serviceList.map((item) => (
-      <div
-        className={
-          "d-flex align-items-center justify-content-center mb-2 col-" +
-          this.props.colnum
-        }
-      >
-        <div className="d-flex align-items-center justify-content-center green-block ">
-          {item}
+      <div className="d-flex mb-3 green-block w-100">
+        <img src={item[0]} className="w-50" />
+        <div className="d-flex align-items-center justify-content-center w-50">
+          {item[1]}
         </div>
       </div>
     ));
   render() {
     return (
       <div className="d-flex flex-column align-items-center justify-content-center my-5">
+        <h1 className=" home-title home-title-green my-4">
+          {this.props.title}
+        </h1>
         <div className="d-flex flex-wrap col-12">
           {this.renderServices(this.props.serviceList)}
         </div>
@@ -25,4 +24,4 @@ class GreenBlockWithoutTitle extends Component {
   }
 }
 
-export default GreenBlockWithoutTitle;
+export default GreenBlockImage;

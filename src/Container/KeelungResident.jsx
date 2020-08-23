@@ -6,6 +6,8 @@ import Footer from "../Components/Footer.jsx";
 import FullWidthBlock from "../Components/FullWidthBlock.jsx";
 import GreenBlock from "../Components/GreenBlock.jsx";
 import GreenBlockWithoutTitle from "../Components/GreenBlockWithoutTitle.jsx";
+import GreenBlockImage from "../Components/GreenBlockImage.jsx";
+import Circle from "../Components/Circle.jsx";
 
 class KeelungResident extends Component {
   render() {
@@ -26,11 +28,35 @@ class KeelungResident extends Component {
             <div className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100">
               市民快線
             </div>
-            <div className="d-flex">
-              <div>
-                  <div></div>
-                <span>市政信箱</span>
-              </div>
+            <div className="d-flex my-3">
+              <Circle
+                title="市政信箱"
+                radius="10vw"
+                backgroundcolor="#F7F7F7"
+                backgroundimage=""
+                mx="5"
+              />
+              <Circle
+                title="訴願審議"
+                radius="10vw"
+                backgroundcolor="#F7F7F7"
+                backgroundimage=""
+                mx="5"
+              />
+              <Circle
+                title="1999服務"
+                radius="10vw"
+                backgroundcolor="#F7F7F7"
+                backgroundimage=""
+                mx="5"
+              />
+              <Circle
+                title="常見問答"
+                radius="10vw"
+                backgroundcolor="#F7F7F7"
+                backgroundimage=""
+                mx="5"
+              />
             </div>
           </div>
           <FullWidthBlock
@@ -64,6 +90,29 @@ class KeelungResident extends Component {
                 <div className="d-flex justify-content-center home-title home-title-green my-3 w-100">
                   勞工權益
                 </div>
+                <div className="d-flex my-3">
+                  <Circle
+                    title="市政信箱"
+                    radius="8vw"
+                    backgroundcolor="#F7F7F7"
+                    backgroundimage="/pictures/keelung-resident/labor-right-1.png"
+                    mx="2"
+                  />
+                  <Circle
+                    title="訴願審議"
+                    radius="8vw"
+                    backgroundcolor="#F7F7F7"
+                    backgroundimage="/pictures/keelung-resident/labor-right-2.png"
+                    mx="2"
+                  />
+                  <Circle
+                    title="1999服務"
+                    radius="8vw"
+                    backgroundcolor="#F7F7F7"
+                    backgroundimage="/pictures/keelung-resident/labor-right-3.png"
+                    mx="2"
+                  />
+                </div>
               </div>
             </div>
           </FullWidthBlock>
@@ -87,15 +136,63 @@ class KeelungResident extends Component {
               />
             </div>
           </div>
-          <div className="big-block">
+          <div className="d-flex align-items-center justify-content-center big-block w-100 row">
             <div className="d-flex justify-content-center home-title home-title-green my-3 w-100">
-              勞工權益
+              社會關懷
+            </div>
+            <div className="d-flex my-3">
+              <Circle
+                title="特殊照護"
+                radius="10vw"
+                backgroundcolor="#F7F7F7"
+                backgroundimage="/pictures/keelung-resident/social-care-1.png"
+                mx="4"
+              />
+              <Circle
+                title="高風險家庭"
+                radius="10vw"
+                backgroundcolor="#F7F7F7"
+                backgroundimage="/pictures/keelung-resident/social-care-2.png"
+                mx="4"
+              />
+              <Circle
+                title="身心障礙"
+                radius="10vw"
+                backgroundcolor="#F7F7F7"
+                backgroundimage="/pictures/keelung-resident/social-care-3.png"
+                mx="4"
+              />
+              <Circle
+                title="家暴防治"
+                radius="10vw"
+                backgroundcolor="#F7F7F7"
+                backgroundimage="/pictures/keelung-resident/social-care-4.png"
+                mx="4"
+              />
+              <Circle
+                title="兒童及青少年"
+                radius="10vw"
+                backgroundcolor="#F7F7F7"
+                backgroundimage="/pictures/keelung-resident/social-care-5.png"
+                mx="4"
+              />
             </div>
           </div>
-          <div className="big-block d-flex">
-            <div className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100">
-              長者專區
+          <div className="big-block d-flex row">
+            <div className="col-12 col-lg-6">
+              <GreenBlockImage
+                title={"長者專區"}
+                serviceList={[
+                  ["/pictures/keelung-resident/elder-1.png", "老人假牙補助"],
+                  ["/pictures/keelung-resident/elder-2.png", "長照專區"],
+                  [
+                    "/pictures/keelung-resident/elder-3.png",
+                    "中低收入老人特別照顧津貼",
+                  ],
+                ]}
+              />
             </div>
+
             <div className="col-12 col-lg-6">
               <GreenBlock
                 title={"婦幼專區"}
@@ -112,7 +209,7 @@ class KeelungResident extends Component {
             </div>
           </div>
           <div className="big-block d-flex row">
-            <div className="d-flex flex-column align-items-end col-12 col-lg-5">
+            <div className="d-flex flex-column align-items-end end col-12 col-lg-5">
               <div className="d-flex justify-content-start home-title home-title-green my-3 w-100">
                 教育服務
               </div>
@@ -161,7 +258,7 @@ class KeelungResident extends Component {
             </div>
           </FullWidthBlock>
           <div className="big-block d-flex row">
-            <div className="d-flex flex-column align-items-end col-12 col-lg-5">
+            <div className="d-flex flex-column end col-12 col-lg-5">
               <div className="d-flex justify-content-start home-title home-title-green my-3 w-100">
                 法律服務
               </div>
@@ -198,8 +295,8 @@ class KeelungResident extends Component {
               />
             </div>
           </div>
+          <Footer />
         </div>
-        <Footer />
       </div>
     );
   }

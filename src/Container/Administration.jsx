@@ -8,7 +8,7 @@ class Administration extends Component {
     return (
       <div>
         <ImageContent
-          img="pictures/admin_bg.png"
+          img="/pictures/admin_bg.png"
           title="市政顧問"
           href={[
             ["首頁", "/", "/"],

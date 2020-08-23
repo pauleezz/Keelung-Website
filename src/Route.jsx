@@ -22,6 +22,16 @@ import Leisure from "./Container/Leisure.jsx";
 import Traffic from "./Container/Traffic.jsx";
 import LawService from "./Container/LawService.jsx";
 import Household from "./Container/Household.jsx";
+import NonKeelungResident from "./Container/NonKeelungResident.jsx";
+import Travel from "./Container/Travel.jsx";
+import Mail from "./Container/Mail.jsx";
+import EnergySubsidy from "./Container/EnergySubsidy.jsx";
+import OrganizationStructure from "./Container/OrganizationStructure.jsx";
+import History from "./Container/History.jsx";
+import KeelungIntro from "./Container/KeelungIntro.jsx";
+import Geography from "./Container/Geography.jsx";
+import RecruitmentInformation from "./Container/RecruitmentInformation.jsx";
+import MunicipalRecruitment from "./Container/MunicipalRecruitment.jsx";
 
 export function route() {
   return (
@@ -33,9 +43,9 @@ export function route() {
           path="/keelung-service/keelung-resident"
           component={KeelungResident}
         />
-        <Route exact path="/administration" component={Administration} />
-        <Route exact path="/mayor" component={Mayor} />
-        <Route exact path="/vice-mayor" component={ViceMayor} />
+        <Route exact path="/about/administration" component={Administration} />
+        <Route exact path="/about/mayor" component={Mayor} />
+        <Route exact path="/about/vice-mayor" component={ViceMayor} />
         <Route exact path="/online-apply" component={OnlineApply} />
         <Route
           exact
@@ -84,6 +94,44 @@ export function route() {
           component={LawService}
         />
         <Route exact path="/keelung-service/household" component={Household} />
+        <Route
+          exact
+          path="/keelung-service/non-keelung-resident"
+          component={NonKeelungResident}
+        />
+        <Route exact path="/keelung-service/travel" component={Travel} />
+        <Route exact path="/keelung-service/mail" component={Mail} />
+        <Route
+          exact
+          path="/keelung-service/energy-subsidy"
+          component={EnergySubsidy}
+        />
+        <Route
+          exact
+          path="/about/organization"
+          component={OrganizationStructure}
+        />
+        <Route exact path="/discover-keelung/history" component={History} />
+        <Route
+          exact
+          path="/discover-keelung/keelung-intro"
+          component={KeelungIntro}
+        />
+        <Route
+          exact
+          path="/discover-keelung/geography"
+          component={Geography}
+        />
+        <Route
+          exact
+          path="/municipal-information/recruitment-information"
+          component={RecruitmentInformation}
+        />
+        <Route
+          exact
+          path="/government-service/municipal-recruitment"
+          component={MunicipalRecruitment}
+        />
       </Switch>
     </Router>
   );

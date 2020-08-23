@@ -4,14 +4,15 @@ class CharmKeelung extends Component {
     render() {
         return (
           <div className="d-flex flex-column align-items-center justify-content-center big-block">
-            <div className="d-flex flex-column align-items-center justify-content-center home-title">
+            <div className="d-flex flex-column align-items-center justify-content-center home-title mb-3">
               <span className="home-title-gray">THE CHARM OF KEELUNG</span>
               <span className="home-title-green">魅力基隆</span>
             </div>
             <div
               id="carouselExampleControls"
-              class="carousel slide w-50"
+              class="carousel slide"
               data-ride="carousel"
+              style={{width:"85%"}}
             >
               <div class="carousel-inner">
                 <div class="carousel-item active">
