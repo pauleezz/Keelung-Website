@@ -11,8 +11,22 @@ class KeelungService extends Component {
               <span className="home-title-green">基隆服務</span>
             </div>
             <div className="d-flex align-items-center justify-content-center mb-5">
-              <button className="switch_left">主題服務</button>
-              <button className="switch_right">分眾服務</button>
+              <a 
+                id="topic_service" 
+                className="switch_left"
+                data-toggle="topic"
+                href="#topic"
+                role="tab"
+                aria-controls="topic"
+                aria-selected="true">主題服務</a>
+              <a 
+                id="crowd_service" 
+                className="switch_right"
+                data-toggle="topic"
+                href="#topic"
+                role="tab"
+                aria-controls="topic"
+                aria-selected="false">分眾服務</a>
             </div>
 
             <div id="row1" className="d-flex align-items-center justify-content-around px-5 mt-5 ">
