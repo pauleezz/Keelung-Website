@@ -6,7 +6,7 @@ class KeelungServiceIcon extends Component{
         const {icon_img, text} = this.props;
 
         return(
-            <button className="icon_but">
+            <button className="icon_but mx-3 my-3">
                 <div className="d-flex flex-column align-items-center justify-content-center">
                     <img src={`/pictures/${icon_img}`} 
                         style={{width: "40%"}}/> 

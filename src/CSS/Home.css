@@ -151,35 +151,25 @@
 
 
 .switch_left{
-  position: absolute;
-  z-index: 1000;
-  left:22%;
   border-style: outset;
   border-radius: 50px;
   background-color: white;
   color: #65b017;
   font-weight:bold ;
   font-size: x-large;
-  height: 7%;
-  width: 30%;
+  
 }
 .switch_right{
-  position: absolute;
-  z-index: 100;
-  left: 48%;
   border-style: outset;
   border-radius: 50px;
-  background-color: #65b017;
-  color: white;
+  background-color: white;
+  color:#65b017;
   font-weight:bold ;
   font-size: x-large;
-  height: 7%;
-  width: 30%;
 }
 .icon_but{
   border-radius: 50%;
   background-color: whitesmoke;
   width: 100px;
   height: 100px;
-  
 }
