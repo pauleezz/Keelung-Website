@@ -7,6 +7,7 @@ import Footer from "../Components/Footer.jsx";
 import CharmKeelung from "../Components/CharmKeelung.jsx";
 import News from "../Components/News.jsx";
 import KeelungService from "../Components/KeelungService.jsx";
+import SideBar from "../Components/SideBar.jsx";
 
 class Home extends Component {
   render() {
@@ -14,7 +15,7 @@ class Home extends Component {
       <div>
         <Navbar />
         <Canvas />
-
+        <SideBar />
         <div className="app">
           <KeelungService />
           <div className="d-flex align-items-start justify-content-center home-title mt-3">
@@ -77,7 +78,7 @@ class Home extends Component {
                 </button>
               </div>
               <div className="col-12 col-lg-6 relative">
-                <img src="pictures/icon-19.png" id="revolution-down" />
+                <img src="/pictures/circle-19.png" id="revolution-down" />
                 <img
                   src="pictures/re-revolution of keelung.png"
                   id="revolution-up"
@@ -92,7 +93,7 @@ class Home extends Component {
               <span className="home-title-green">統計指標</span>
             </div>
             <div>
-              <img src="/pictures/statistic.png" style={{ width: "100%" }}/>
+              <img src="/pictures/statistic.png" style={{ width: "100%" }} />
             </div>
           </div>
 

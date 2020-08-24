@@ -131,63 +131,71 @@ class Footer extends Component {
                 <span className="footer-title mb-3">機關網站</span>
                 <div className="d-flex">
                   <div className="w-50">
-                    <span className="footer-subtitle mb-3">本府各處網站</span>
-                    <ul className="footer-list">
-                      <li>社會處</li>
-                      <li>地政處</li>
-                      <li>交通處</li>
-                      <li>產業發展處</li>
-                      <li>綜合發展處</li>
-                      <li>政風處</li>
-                      <li>主計處</li>
-                      <li>人事處</li>
-                      <li>都市發展處</li>
-                      <li>工務處</li>
-                      <li>教育處</li>
-                      <li>財政處</li>
-                      <li>民政處</li>
-                      <li>觀光及城市行銷處</li>
-                    </ul>
-                    <span className="footer-subtitle mb-3">區公所網站</span>
-                    <ul className="footer-list">
-                      <li>七堵區公所</li>
-                      <li>暖暖區公所</li>
-                      <li>中山區公所</li>
-                      <li>仁愛區公所</li>
-                      <li>信義區公所</li>
-                      <li>中正區公所</li>
-                      <li>安樂區公所</li>
-                    </ul>
+                    <div className="mx-1">
+                      <span className="footer-subtitle mb-3">本府各處網站</span>
+                      <ul className="footer-list">
+                        <li>社會處</li>
+                        <li>地政處</li>
+                        <li>交通處</li>
+                        <li>產業發展處</li>
+                        <li>綜合發展處</li>
+                        <li>政風處</li>
+                        <li>主計處</li>
+                        <li>人事處</li>
+                        <li>都市發展處</li>
+                        <li>工務處</li>
+                        <li>教育處</li>
+                        <li>財政處</li>
+                        <li>民政處</li>
+                        <li>觀光及城市行銷處</li>
+                      </ul>
+                      <span className="footer-subtitle mb-3">區公所網站</span>
+                      <ul className="footer-list">
+                        <li>七堵區公所</li>
+                        <li>暖暖區公所</li>
+                        <li>中山區公所</li>
+                        <li>仁愛區公所</li>
+                        <li>信義區公所</li>
+                        <li>中正區公所</li>
+                        <li>安樂區公所</li>
+                      </ul>
+                    </div>
                   </div>
                   <div className="w-50">
-                    <span className="footer-subtitle mb-3">地政事務所網站</span>
-                    <ul className="footer-list">
-                      <li>基隆市地政事務所</li>
-                    </ul>
-                    <span className="footer-subtitle mb-3">戶政事務所網站</span>
-                    <ul className="footer-list">
-                      <li>七堵戶政事務所</li>
-                      <li>安樂戶政事務所</li>
-                      <li>中正戶政事務所</li>
-                    </ul>
-                    <span className="footer-subtitle mb-3">附屬機關網站</span>
-                    <ul className="footer-list">
-                      <li>基隆家庭教育中心</li>
-                      <li>動物保護防疫所</li>
-                      <li>文化局</li>
-                      <li>市立體育場</li>
-                      <li>稅務局</li>
-                      <li>市立仁愛之家</li>
-                      <li>市立殯葬管理所</li>
-                      <li>市立醫院</li>
-                      <li>公車處</li>
-                      <li>環保局</li>
-                      <li>衛生局</li>
-                      <li>消防局</li>
-                      <li>警察局</li>
-                    </ul>
-                    <span className="footer-subtitle mb-3">單位通訊</span>
-                    <span className="footer-subtitle mb-3">機關業務介紹</span>
+                    <div className="mx-1">
+                      <span className="footer-subtitle mb-3">
+                        地政事務所網站
+                      </span>
+                      <ul className="footer-list">
+                        <li>基隆市地政事務所</li>
+                      </ul>
+                      <span className="footer-subtitle mb-3">
+                        戶政事務所網站
+                      </span>
+                      <ul className="footer-list">
+                        <li>七堵戶政事務所</li>
+                        <li>安樂戶政事務所</li>
+                        <li>中正戶政事務所</li>
+                      </ul>
+                      <span className="footer-subtitle mb-3">附屬機關網站</span>
+                      <ul className="footer-list">
+                        <li>基隆家庭教育中心</li>
+                        <li>動物保護防疫所</li>
+                        <li>文化局</li>
+                        <li>市立體育場</li>
+                        <li>稅務局</li>
+                        <li>市立仁愛之家</li>
+                        <li>市立殯葬管理所</li>
+                        <li>市立醫院</li>
+                        <li>公車處</li>
+                        <li>環保局</li>
+                        <li>衛生局</li>
+                        <li>消防局</li>
+                        <li>警察局</li>
+                      </ul>
+                      <span className="footer-subtitle mb-3">單位通訊</span>
+                      <span className="footer-subtitle mb-3">機關業務介紹</span>
+                    </div>
                   </div>
                 </div>
               </div>

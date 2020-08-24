@@ -128,19 +128,111 @@ ul {
   margin-right: 15px;
 }
 
-.bold{
+.bold {
   font-weight: bold;
 }
 
-.gray-box{
+.gray-box {
   width: 85%;
   height: 170px;
-  background: #F7F7F7;
+  background: #f7f7f7;
   padding: 40px;
 }
 
-.gray-content{
-  color: #5F5F5F;
+.gray-content {
+  color: #5f5f5f;
 }
 
+.sidenav {
+  height: 90vh; /* Full-height: remove this if you want "auto" height */
+  width: 110px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 90px; /* Stay at the top */
+  right: 0;
+
+}
+
+.green-sidebar {
+  background-color: #65b017;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-radius: 60px;
+}
+
+.sidenav img {
+  width: 25px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 3px 12px 3px 12px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #ffffff;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #6b6b6b;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.orange-circle {
+  height: 90px; /* Full-height: remove this if you want "auto" height */
+  width: 90px; /* Set the width of the sidebar */
+  background-color: #fa990d;
+  overflow-x: hidden;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.sidebar-item {
+  margin-bottom: 5px;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+}
+
+.nav-bar-logo {
+  font-size: 25px;
+}
+.nav-bar-logo-en{
+  font-size: 10px;
+}
+
+.nav-bar-green{
+  width: 75%;
+  height: 85%;
+  background-color: #65B017;
+  color: #FFFFFF;
+  border-radius: 0px 0px 35px 35px;
+}
+
+.nav-bar-gray{
+  color: #6B6B6B;
+}
+
+.navbar-dark{
+  color: #707070;
+}
+
+.green-item{
+  font-weight: 700;
+  color: #236C0A;
+}
+
+.menu-expand{
+  padding: 25px;
+}
 /* h1 margin: 1em auto */

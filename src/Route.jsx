@@ -32,6 +32,7 @@ import KeelungIntro from "./Container/KeelungIntro.jsx";
 import Geography from "./Container/Geography.jsx";
 import RecruitmentInformation from "./Container/RecruitmentInformation.jsx";
 import MunicipalRecruitment from "./Container/MunicipalRecruitment.jsx";
+import DiscoverKeelung from "./Container/DiscoverKeelung.jsx";
 
 export function route() {
   return (
@@ -111,17 +112,13 @@ export function route() {
           path="/about/organization"
           component={OrganizationStructure}
         />
-        <Route exact path="/discover-keelung/history" component={History} />
+        <Route exact path="/know-keelung/history" component={History} />
         <Route
           exact
-          path="/discover-keelung/keelung-intro"
+          path="/know-keelung/keelung-intro"
           component={KeelungIntro}
         />
-        <Route
-          exact
-          path="/discover-keelung/geography"
-          component={Geography}
-        />
+        <Route exact path="/know-keelung/geography" component={Geography} />
         <Route
           exact
           path="/municipal-information/recruitment-information"
@@ -131,6 +128,11 @@ export function route() {
           exact
           path="/government-service/municipal-recruitment"
           component={MunicipalRecruitment}
+        />
+        <Route
+          exact
+          path="/know-keelung/discover-keelung"
+          component={DiscoverKeelung}
         />
       </Switch>
     </Router>

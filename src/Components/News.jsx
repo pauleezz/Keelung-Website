@@ -11,7 +11,7 @@ class News extends Component {
             class="d-block"
             src="/pictures/ShowImgashx.png"
             alt="First slide"
-            style={{width: "70%"}}
+            style={{width: "80%"}}
           />
         </div>
 

@@ -7,18 +7,17 @@ import FullWidthBlock from "../Components/FullWidthBlock.jsx";
 import Circle from "../Components/Circle.jsx";
 import ImageText from "../Components/ImageText.jsx";
 
-class Travel extends Component {
+class DiscoverKeelung extends Component {
   render() {
     return (
       <div>
-        <Navbar />
         <ImageContent
           img="/pictures/travel/img_bg.png"
-          title="旅遊觀光"
+          title="發現基隆"
           href={[
             ["首頁", "/", "/"],
-            ["基隆服務", "/", "/"],
-            ["旅遊觀光", "/"],
+            ["認識基隆", "/", "/"],
+            ["發現基隆", "/"],
           ]}
         />
         <div className="app">
@@ -196,4 +195,4 @@ class Travel extends Component {
   }
 }
 
-export default Travel;
+export default DiscoverKeelung;
