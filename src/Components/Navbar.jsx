@@ -58,21 +58,30 @@ class Navbar extends Component {
               <ul className="navbar-nav w-100 justify-content-around">
                 <NavbarCategory
                   category="訊息快報"
-                  categories={["最新公告", "活動訊息", "市政新聞"]}
+                  categories={[
+                    ["最新公告", ""],
+                    ["活動訊息", ""],
+                    ["市政新聞", ""],
+                  ]}
                   colnum="col-4"
                 />
                 <NavbarCategory
                   category="認識基隆"
-                  categories={["基隆簡介", "歷史沿革", "地理環境", "發現基隆"]}
+                  categories={[
+                    ["基隆簡介", "/know-keelung/keelung-intro"],
+                    ["歷史沿革", "/know-keelung/history"],
+                    ["地理環境", "/know-keelung/geography"],
+                    ["發現基隆", "/know-keelung/discover-keelung"],
+                  ]}
                   colnum="col-3"
                 />
                 <NavbarCategory
                   category="市府團隊"
                   categories={[
-                    "市長介紹",
-                    "副市長介紹",
-                    "組織架構",
-                    "市政顧問",
+                    ["市長介紹", "/about/mayor"],
+                    ["副市長介紹", "/about/vice-mayor"],
+                    ["組織架構", "/about/organization"],
+                    ["市政顧問", "/about/administration"],
                   ]}
                   colnum=""
                 />
@@ -111,14 +120,20 @@ class Navbar extends Component {
                 <NavbarCategory
                   category="市政資訊"
                   categories={[
-                    "徵才資訊",
-                    "招標資訊",
-                    "施政計畫",
-                    "市政統計",
-                    "市政公開資訊",
-                    "常見問題",
+                    [
+                      "徵才資訊",
+                      "/municipal-information/recruitment-information-simplify",
+                    ],
+                    [
+                      "招標資訊",
+                      "/municipal-information/bid-information-simplify",
+                    ],
+                    ["施政計畫", "/municipal-information/plan"],
+                    ["市政統計", "/municipal-information/municipal-statistic"],
+                    ["市政公開資訊", "/municipal-information/public-info"],
+                    ["常見問題", "/municipal-information/FAQ"],
                   ]}
-                  colnum=""
+                  colnum="col-4"
                 />
                 <NavbarCategoryDetail
                   category="機關網站"

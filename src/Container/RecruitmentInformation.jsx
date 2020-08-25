@@ -45,6 +45,7 @@ class RecruitmentInformation extends Component {
                   </button>
                 </form>
               </div>
+              
             </div>
           </div>
           <Footer />

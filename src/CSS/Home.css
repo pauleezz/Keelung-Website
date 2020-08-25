@@ -177,3 +177,12 @@
   color: #ffffff;
   background-color: #65b017;
 }
+
+.navbar-nav a{
+  text-decoration: inherit;
+}
+.navbar-nav a:focus{
+  text-decoration: inherit;
+  color: inherit;
+  background-color:inherit;
+}

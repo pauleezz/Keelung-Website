@@ -33,6 +33,12 @@ import Geography from "./Container/Geography.jsx";
 import RecruitmentInformation from "./Container/RecruitmentInformation.jsx";
 import MunicipalRecruitment from "./Container/MunicipalRecruitment.jsx";
 import DiscoverKeelung from "./Container/DiscoverKeelung.jsx";
+import BidInformation from "./Container/BidInformation.jsx";
+import BidInformationDetail from "./Container/BidInformationDetail.jsx";
+import Plan from "./Container/Plan.jsx";
+import MunicipalStatistic from "./Container/MunicipalStatistic.jsx";
+import FAQ from "./Container/FAQ.jsx";
+import PublicInfo from "./Container/PublicInfo.jsx";
 
 export function route() {
   return (
@@ -121,8 +127,38 @@ export function route() {
         <Route exact path="/know-keelung/geography" component={Geography} />
         <Route
           exact
-          path="/municipal-information/recruitment-information"
+          path="/municipal-information/recruitment-information-simplify"
           component={RecruitmentInformation}
+        />
+        <Route
+          exact
+          path="/municipal-information/bid-information-simplify"
+          component={BidInformation}
+        />
+        <Route
+          exact
+          path="/municipal-information/bid-information-detail"
+          component={BidInformationDetail}
+        />
+        <Route
+          exact
+          path="/municipal-information/plan"
+          component={Plan}
+        />
+        <Route
+          exact
+          path="/municipal-information/municipal-statistic"
+          component={MunicipalStatistic}
+        />
+        <Route
+          exact
+          path="/municipal-information/FAQ"
+          component={FAQ}
+        />
+        <Route
+          exact
+          path="/municipal-information/public-info"
+          component={PublicInfo}
         />
         <Route
           exact

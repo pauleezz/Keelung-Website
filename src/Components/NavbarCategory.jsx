@@ -8,8 +8,8 @@ class NavbarCategory extends Component {
     function renderCatregories(categories) {
       return categories.map((category) => (
         <div className={colnum}>
-          <a className="dropdown-item green-item" href="#">
-            &gt;&emsp;{category}
+          <a className="dropdown-item green-item" href={category[1]}>
+            &gt;&emsp;{category[0]}
           </a>
         </div>
       ));
@@ -32,7 +32,7 @@ class NavbarCategory extends Component {
             className="dropdown-menu menu-expand"
             aria-labelledby="navbarDropdown"
           >
-            <div className="d-flex">{renderCatregories(categories)}</div>
+            <div className="d-flex col-12 flex-column">{renderCatregories(categories)}</div>
           </div>
         </li>
       </>
