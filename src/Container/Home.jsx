@@ -18,10 +18,7 @@ class Home extends Component {
         <SideBar />
         <div className="app">
           <KeelungService />
-          <div className="d-flex align-items-start justify-content-center home-title mt-3">
-            <button className="switch_left">主題服務</button>
-            <button className="switch_right">分眾服務</button>
-          </div>
+          
 
           <div className="big-block">
             <div className="d-flex flex-column align-items-start justify-content-center home-title mb-3">
