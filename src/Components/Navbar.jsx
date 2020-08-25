@@ -7,16 +7,19 @@ class Navbar extends Component {
   render() {
     return (
       <div className="d-flex nav-bar">
-        <div className="d-flex align-items-center mx-3 col-3">
-          <img
-            src="/pictures/keelung-logo-02.png"
-            style={{ width: "50px", height: "50px" }}
-          />
-          <div className="d-flex flex-column ml-2">
-            <span className="nav-bar-logo">基隆市政府</span>
-            <span className="nav-bar-logo-en">Keelung City Government</span>
-          </div>
+        <div className="d-flex mx-3 col-3">
+          <a href="/" className="d-flex align-items-center">
+            <img
+              src="/pictures/keelung-logo-02.png"
+              style={{ width: "50px", height: "50px" }}
+            />
+            <div className="d-flex flex-column ml-2">
+              <span className="nav-bar-logo">基隆市政府</span>
+              <span className="nav-bar-logo-en">Keelung City Government</span>
+            </div>
+          </a>
         </div>
+
         <div className="col-7">
           <div className="d-flex justify-content-end nav-bar-gray my-1">
             <a href="#">

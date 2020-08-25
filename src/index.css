@@ -16,6 +16,13 @@ code {
 
 a {
   text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 input,
@@ -150,7 +157,6 @@ ul {
   z-index: 1; /* Stay on top */
   top: 90px; /* Stay at the top */
   right: 0;
-
 }
 
 .green-sidebar {
@@ -207,32 +213,32 @@ ul {
 .nav-bar-logo {
   font-size: 25px;
 }
-.nav-bar-logo-en{
+.nav-bar-logo-en {
   font-size: 10px;
 }
 
-.nav-bar-green{
+.nav-bar-green {
   width: 75%;
   height: 85%;
-  background-color: #65B017;
-  color: #FFFFFF;
+  background-color: #65b017;
+  color: #ffffff;
   border-radius: 0px 0px 35px 35px;
 }
 
-.nav-bar-gray{
-  color: #6B6B6B;
+.nav-bar-gray {
+  color: #6b6b6b;
 }
 
-.navbar-dark{
+.navbar-dark {
   color: #707070;
 }
 
-.green-item{
+.green-item {
   font-weight: 700;
-  color: #236C0A;
+  color: #236c0a;
 }
 
-.menu-expand{
+.menu-expand {
   padding: 25px;
 }
 /* h1 margin: 1em auto */
