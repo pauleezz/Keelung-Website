@@ -139,41 +139,23 @@
   width: 100px;
 }
 
-/* 
-            position: "absolute",
-            zIndex: "1",
-            width: "360px",
-            height: "340px", */
 
-.switch_left {
-  border-style: outset;
-  border-radius: 50px;
-  background-color: #ffffff;
-  color: #65b017;
-  font-weight: bold;
-  font-size: x-large;
-}
-.switch_right {
-  border-style: outset;
-  border-radius: 50px;
-  background-color: #ffffff;
-  color: #65b017;
-  font-weight: bold;
-  font-size: x-large;
-}
 .icon_but {
   border-radius: 50%;
   background-color: #f7f7f7;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 
-#keelung-service .active {
-  color: #65b017 !important;
+#keelung-service #pills-topic-tab.active {
+  font-size: 30px;
+  color: #65b017 ;
+  background-color: whitesmoke;
 }
 
-.normal {
-  font-size: 28px;
+
+#keelung-service #pills-crowd-tab.normal {
+  font-size: 30px;
   color: #ffffff;
   background-color: #65b017;
 }

@@ -13,7 +13,154 @@ class KeelungService extends Component {
               <span className="home-title-gray">KEELUNG SERVICE</span>
               <span className="home-title-green">基隆服務</span>
             </div>
-            <div class="d-flex flex-column align-items-center justify-content-center">
+            <div className="d-flex align-items-center justify-content-center">
+              <div className="col-12">
+                <ul
+                  class="nav nav-pills d-flex align-items-center justify-content-center mb-3 "
+                  id="pills-tab"
+                  role="tablist"
+                >
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active d-flex justify-content-center normal"
+                      id="pills-topic-tab"
+                      data-toggle="pill"
+                      href="#pills-topic"
+                      role="tab"
+                      aria-controls="pills-topic"
+                      aria-selected="true"
+                      style={{ width: "200px" }}
+                    >
+                      主題服務
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link d-flex justify-content-center normal"
+                      id="pills-crowd-tab"
+                      data-toggle="pill"
+                      href="#pills-crowd"
+                      role="tab"
+                      aria-controls="pills-crowd"
+                      aria-selected="false"
+                      style={{ width: "200px" }}
+                    >
+                      分眾服務
+                    </a>
+                  </li>
+                </ul>
+                <div
+                  class="d-flex align-items-center justify-content-center tab-content"
+                  id="pills-tabContent"
+                >
+                  <div
+                    class="d-flex tab-pane fade show active row w-75"
+                    id="pills-topic"
+                    role="tabpanel"
+                    aria-labelledby="pills-topic-tab"
+                  >
+                    <KeelungServiceIcon
+                      icon_img="icon-01.png"
+                      text="醫療保健"
+                      href="/keelung-service/medical"
+                      colnum = "col-3"
+                    />
+                    <KeelungServiceIcon
+                      icon_img="icon-02.png"
+                      text="社會福利"
+                      href="/keelung-service/medical"
+                      colnum = "col-3"
+                    />
+                    <KeelungServiceIcon
+                      icon_img="icon-03.png"
+                      text="觀光旅遊"
+                      href="/keelung-service/medical"
+                      colnum = "col-3"
+                    />
+                    <KeelungServiceIcon
+                      icon_img="icon-04.png"
+                      text="市民快線"
+                      href="/keelung-service/medical"
+                      colnum = "col-3"
+                    />
+                    <KeelungServiceIcon
+                      icon_img="icon-05.png"
+                      text="勞工就業"
+                      href="/keelung-service/medical"
+                      colnum = "col-3"
+                    />
+                    <KeelungServiceIcon
+                      icon_img="icon-06.png"
+                      text="教育學習"
+                      href="/keelung-service/medical"
+                      colnum = "col-3"
+                    />
+                    <KeelungServiceIcon
+                      icon_img="icon-07.png"
+                      text="文化休閒"
+                      href="/keelung-service/medical"
+                      colnum = "col-3"
+                    />
+                    <KeelungServiceIcon
+                      icon_img="icon-08.png"
+                      text="交通服務"
+                      href="/keelung-service/medical"
+                      colnum = "col-3"
+                    />
+                    <KeelungServiceIcon
+                      icon_img="icon-09.png"
+                      text="戶籍身份"
+                      href="/keelung-service/medical"
+                      colnum = "col-3"
+                    />
+                    <KeelungServiceIcon
+                      icon_img="icon-10.png"
+                      text="買屋賣屋"
+                      href="/keelung-service/medical"
+                      colnum = "col-3"
+                    />
+                    <KeelungServiceIcon
+                      icon_img="icon-11.png"
+                      text="法律服務"
+                      href="/keelung-service/medical"
+                      colnum = "col-3"
+                    />
+                    <KeelungServiceIcon
+                      icon_img="icon-12.png"
+                      text="環境保護"
+                      href="/keelung-service/medical"
+                      colnum = "col-3"
+                    />
+                  </div>
+                  <div
+                    class="tab-pane fade row w-75"
+                    id="pills-crowd"
+                    role="tabpanel"
+                    aria-labelledby="pills-crowd-tab"
+                  >
+                    <KeelungServiceIcon
+                      icon_img="icon-13.png"
+                      text="基隆市民"
+                      href="/keelung-service/medical"
+                      colnum = "col-4"
+                    />
+                    <KeelungServiceIcon
+                      icon_img="icon-14.png"
+                      text="旅遊觀光"
+                      href="/keelung-service/medical"
+                      colnum = "col-4"
+                    />
+                    <KeelungServiceIcon
+                      icon_img="icon-15.png"
+                      text="非基隆市民"
+                      href="/keelung-service/medical"
+                      colnum = "col-4"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <div class="d-flex flex-column align-items-center justify-content-center">
               <nav className="w-100">
                 <div
                   class="d-flex justify-content-center align-items-center nav nav-tabs"
@@ -57,73 +204,73 @@ class KeelungService extends Component {
                     icon_img="icon-01.png"
                     text="醫療保健"
                     href="/keelung-service/medical"
-                    colnum="col-4 col-xl-3"
+                    colnum="col-3"
                   />
                   <KeelungServiceIcon
                     icon_img="icon-02.png"
                     text="社會福利"
                     href="/keelung-service/medical"
-                    colnum="col-4 col-xl-3"
+                    colnum="col-3"
                   />
                   <KeelungServiceIcon
                     icon_img="icon-03.png"
                     text="觀光旅遊"
                     href="/keelung-service/medical"
-                    colnum="col-4 col-xl-3"
+                    colnum="col-3"
                   />
                   <KeelungServiceIcon
                     icon_img="icon-04.png"
                     text="市民快線"
                     href="/keelung-service/medical"
-                    colnum="col-4 col-xl-3"
+                    colnum="col-3"
                   />
                   <KeelungServiceIcon
                     icon_img="icon-05.png"
                     text="勞工就業"
                     href="/keelung-service/medical"
-                    colnum="col-4 col-xl-3"
+                    colnum="col-3"
                   />
                   <KeelungServiceIcon
                     icon_img="icon-06.png"
                     text="教育學習"
                     href="/keelung-service/medical"
-                    colnum="col-4 col-xl-3"
+                    colnum="col-3"
                   />
                   <KeelungServiceIcon
                     icon_img="icon-07.png"
                     text="文化休閒"
                     href="/keelung-service/medical"
-                    colnum="col-4 col-xl-3"
+                    colnum="col-3"
                   />
                   <KeelungServiceIcon
                     icon_img="icon-08.png"
                     text="交通服務"
                     href="/keelung-service/medical"
-                    colnum="col-4 col-xl-3"
+                    colnum="col-3"
                   />
                   <KeelungServiceIcon
                     icon_img="icon-09.png"
                     text="戶籍身份"
                     href="/keelung-service/medical"
-                    colnum="col-4 col-xl-3"
+                    colnum="col-3"
                   />
                   <KeelungServiceIcon
                     icon_img="icon-10.png"
                     text="買屋賣屋"
                     href="/keelung-service/medical"
-                    colnum="col-4 col-xl-3"
+                    colnum="col-3"
                   />
                   <KeelungServiceIcon
                     icon_img="icon-11.png"
                     text="法律服務"
                     href="/keelung-service/medical"
-                    colnum="col-4 col-xl-3"
+                    colnum="col-3"
                   />
                   <KeelungServiceIcon
                     icon_img="icon-12.png"
                     text="環境保護"
                     href="/keelung-service/medical"
-                    colnum="col-4 col-xl-3"
+                    colnum="col-3"
                   />
                 </div>
                 <div
@@ -152,9 +299,15 @@ class KeelungService extends Component {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
+          </div>
+        );
+    }
+}
 
-            {/* <div className="d-flex align-items-center justify-content-center">
+export default KeelungService;
+
+{/* <div className="d-flex align-items-center justify-content-center">
               <div className="col-12">
                 <ul
                   class="nav nav-pills d-flex align-items-center justify-content-center mb-3 "
@@ -272,9 +425,3 @@ class KeelungService extends Component {
                 </div>
               </div>
             </div> */}
-          </div>
-        );
-    }
-}
-
-export default KeelungService;
