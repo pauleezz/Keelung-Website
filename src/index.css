@@ -259,7 +259,7 @@ ul {
   border: none;
 }
 
-input[type=text] {
+input[type="text"] {
   padding: 6px;
   border: none;
   margin-top: 8px;
@@ -277,13 +277,20 @@ input[type=text] {
   cursor: pointer;
 }
 
-#news .nav-item .active{
-  background: #65B017;
+#news .nav-item .active {
+  background: #65b017 !important;
+  color: #ffffff !important;
 }
 
-.w-70{
+#news .nav-item .normal {
+  color: #4a4a4a;
+  background: #ffffff;
+  width: "33%";
+  font-size:20px
+}
+
+.w-70 {
   width: 70%;
 }
-
 
 /* h1 margin: 1em auto */

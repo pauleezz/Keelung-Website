@@ -11,7 +11,7 @@ class News extends Component {
             class="d-block"
             src="/pictures/ShowImgashx.png"
             alt="First slide"
-            style={{width: "80%"}}
+            style={{ width: "80%" }}
           />
         </div>
 
@@ -22,12 +22,12 @@ class News extends Component {
           </div>
           <div
             className="d-flex flex-column align-items-center"
-            style={{ height: "350px" }}
+            style={{ height: "350px", border: "solid 1px #65b017" }}
           >
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link active normal"
                   id="pills-home-tab"
                   data-toggle="pill"
                   href="#pills-home"
@@ -40,7 +40,7 @@ class News extends Component {
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link normal"
                   id="pills-profile-tab"
                   data-toggle="pill"
                   href="#pills-profile"
@@ -53,7 +53,7 @@ class News extends Component {
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link normal"
                   id="pills-contact-tab"
                   data-toggle="pill"
                   href="#pills-contact"
@@ -168,6 +168,13 @@ class News extends Component {
                 />
               </div>
             </div>
+          </div>
+          <div
+            className="d-flex justify-content-end py-2"
+            style={{ background: "#65b017", color: "#ffffff" }}
+          >
+            <div className="mx-3">RSS訂閱</div>
+            <div className="mx-3">更多內容</div>
           </div>
         </div>
       </div>
