@@ -11,6 +11,7 @@ class DiscoverKeelung extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <ImageContent
           img="/pictures/travel/img_bg.png"
           title="發現基隆"

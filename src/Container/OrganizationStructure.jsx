@@ -15,8 +15,8 @@ class OrganizationStructure extends Component {
           title="組織架構"
           href={[
             ["首頁", "/", "/"],
-            ["市府團隊", "/", "/"],
-            ["組織架構", "/"],
+            ["市府團隊", "", "/"],
+            ["組織架構", ""],
           ]}
         />
         <div className="app">
@@ -37,6 +37,9 @@ class OrganizationStructure extends Component {
             <br />
             本市以下設區，區設區公所。
           </FullWidthBlock>
+          <div className="d-flex justify-content-center big-block">
+            <img src="/pictures/organization/Image_4.png" className="w-70"/>
+          </div>
           <Footer />
         </div>
       </div>

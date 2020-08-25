@@ -58,13 +58,13 @@ class Footer extends Component {
                   <span className="footer-title mb-3">訊息快報</span>
                   <ul className="footer-list">
                     <li>
-                      <a href=""></a>最新公告
+                      <a href="/news/latest">最新公告</a>
                     </li>
                     <li>
-                      <a href=""></a>活動訊息
+                      <a href="/news/activity">活動訊息</a>
                     </li>
                     <li>
-                      <a href=""></a>市政新聞
+                      <a href="/news/municipal-news">市政新聞</a>
                     </li>
                   </ul>
                 </div>
@@ -173,20 +173,23 @@ class Footer extends Component {
                     <a href=""></a>招標資訊
                   </li>
                   <li>
-                    <a href="/municipal-information/recruitment-information">徵才資訊</a>
-                    
+                    <a href="/municipal-information/recruitment-information">
+                      徵才資訊
+                    </a>
                   </li>
                   <li>
-                    <a href=""></a>施政計畫
+                    <a href="/municipal-information/plan"></a>施政計畫
                   </li>
                   <li>
-                    <a href=""></a>市政統計
+                    <a href="/municipal-information/municipal-statistic"></a>
+                    市政統計
                   </li>
                   <li>
-                    <a href=""></a>政府公開資訊
+                    <a href="/municipal-information/public-info"></a>
+                    政府公開資訊
                   </li>
                   <li>
-                    <a href=""></a>常見問題
+                    <a href="/municipal-information/FAQ"></a>常見問題
                   </li>
                 </ul>
               </div>
