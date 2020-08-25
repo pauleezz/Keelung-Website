@@ -39,6 +39,9 @@ import Plan from "./Container/Plan.jsx";
 import MunicipalStatistic from "./Container/MunicipalStatistic.jsx";
 import FAQ from "./Container/FAQ.jsx";
 import PublicInfo from "./Container/PublicInfo.jsx";
+import Latest from "./Container/Latest.jsx";
+import MunicipalNews from "./Container/MunicipalNews.jsx";
+import Activity from "./Container/Activity.jsx";
 
 export function route() {
   return (
@@ -169,6 +172,21 @@ export function route() {
           exact
           path="/know-keelung/discover-keelung"
           component={DiscoverKeelung}
+        />
+        <Route
+          exact
+          path="/news/activity"
+          component={Activity}
+        />
+        <Route
+          exact
+          path="/news/latest"
+          component={Latest}
+        />
+        <Route
+          exact
+          path="/news/municipal-news"
+          component={MunicipalNews}
         />
       </Switch>
     </Router>

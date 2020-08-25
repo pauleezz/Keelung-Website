@@ -59,9 +59,9 @@ class Navbar extends Component {
                 <NavbarCategory
                   category="訊息快報"
                   categories={[
-                    ["最新公告", ""],
-                    ["活動訊息", ""],
-                    ["市政新聞", ""],
+                    ["最新公告", "/news/latest"],
+                    ["活動訊息", "/news/activity"],
+                    ["市政新聞", "/news/municipal-news"],
                   ]}
                   colnum="col-4"
                 />
