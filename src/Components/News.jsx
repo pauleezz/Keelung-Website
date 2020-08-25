@@ -5,7 +5,7 @@ import NewsList from "../Components/NewsList.jsx";
 class News extends Component {
   render() {
     return (
-      <div className="big-block d-flex row">
+      <div className="big-block d-flex row" id="news">
         <div className="d-flex align-items-center justify-content-center col-12 col-lg-5">
           <img
             class="d-block"

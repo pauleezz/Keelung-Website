@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import ImageContent from "../Components/ImageContent.jsx";
+import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
 import FullWidthBlock from "../Components/FullWidthBlock.jsx";
 
@@ -8,6 +9,7 @@ class KeelungIntro extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <ImageContent
           img="/pictures/keelung-intro/img_bg.png"
           title="基隆簡介"

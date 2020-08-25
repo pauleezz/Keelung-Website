@@ -2,14 +2,16 @@ import React, { Component } from "react";
 
 import ImageContent from "../Components/ImageContent.jsx";
 import Supervisor from "../Components/Supervisor.jsx";
+import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
 
 class Mayor extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <ImageContent
-          img="pictures/mayor_bg.png"
+          img="/pictures/mayor_bg.png"
           title="市政顧問"
           href={[
             ["首頁", "/", "/"],
@@ -19,7 +21,7 @@ class Mayor extends Component {
         />
         <div className="app">
           <Supervisor
-            name={[["基隆市市長 林右昌", "pictures/mayor.png"]]}
+            name={[["基隆市市長 林右昌", "/pictures/mayor.png"]]}
             study={[
               ["國立臺灣大學建築與城鄉研究所"],
               ["文化大學造園暨景觀學系"],

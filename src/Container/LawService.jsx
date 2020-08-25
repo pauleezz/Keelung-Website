@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 
 import ImageContent from "../Components/ImageContent.jsx";
 import ImageBlock from "../Components/ImageBlock.jsx";
+import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
 
 class LawService extends Component {
     render() {
         return (
           <div>
+            <Navbar />
             <ImageContent
               img="/pictures/law-service/law-service_bg.png"
               title="法律服務"

@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 
 import ImageContent from "../Components/ImageContent.jsx";
 import ImageBlock from "../Components/ImageBlock.jsx";
+import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
 
 class Medical extends Component {
     render() {
         return (
           <div>
+            <Navbar />
             <ImageContent
               img="/pictures/covid/covid19_bg.png"
               title="醫療保健"

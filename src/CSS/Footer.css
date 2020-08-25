@@ -40,3 +40,10 @@
     padding: 10px;
     height: 120px;
 }
+
+li {
+  margin-bottom: 5px;
+}
+li a:hover{
+  color: orange
+}

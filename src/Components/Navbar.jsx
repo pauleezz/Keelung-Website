@@ -167,9 +167,9 @@ class Navbar extends Component {
           </nav>
         </div>
         <div className="d-flex col-2">
-          <div className="d-flex align-items-center justify-content-center nav-bar-green">
+          <div className="d-flex align-items-center justify-content-center nav-bar-green w-50">
             <div className="d-flex align-items-center justify-content-center">
-              <img src="/pictures/search-02.png" style={{ width: "20%" }} />
+              <img src="/pictures/search-02.png" style={{ width: "20px" }} />
               ｜中
             </div>
           </div>

@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 
 import ImageContent from "../Components/ImageContent.jsx";
 import ImageBlock from "../Components/ImageBlock.jsx";
+import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
 
 class Education extends Component {
     render() {
         return (
           <div>
+            <Navbar />
             <ImageContent
               img="/pictures/education/education_bg.png"
               title="教育學習"

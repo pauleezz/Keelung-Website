@@ -18,9 +18,8 @@ class Home extends Component {
         <SideBar />
         <div className="app">
           <KeelungService />
-          
 
-          <div className="big-block">
+          <div className="big-block" id="online-apply">
             <div className="d-flex flex-column align-items-start justify-content-center home-title mb-3">
               <span className="home-title-gray">APPLICATION & SUBSIDY</span>
               <span className="home-title-green">補助 / 申辦專區</span>
@@ -32,7 +31,7 @@ class Home extends Component {
                   className="subsidy-image"
                 />
                 <div className="subsidy-title d-flex align-items-center justify-content-center">
-                  補助申請服務
+                  <a href="/online-apply/service">補助申請服務</a>
                 </div>
               </div>
               <div className="subsidy-blcok col-12 col-lg-6 mb-2">
@@ -41,7 +40,7 @@ class Home extends Component {
                   className="subsidy-image"
                 />
                 <div className="subsidy-title d-flex align-items-center justify-content-center">
-                  線上申辦專區
+                  <a href="/online-apply">線上申辦專區</a>
                 </div>
               </div>
             </div>
@@ -50,7 +49,7 @@ class Home extends Component {
           <News />
 
           <CharmKeelung />
-          <div className="big-block">
+          <div className="big-block" id="revolution">
             <div className="d-flex flex-column align-items-start justify-content-center home-title mb-3">
               <span className="home-title-gray">RE-EVOLUTION OF KEELUNG</span>
               <span className="home-title-green">基隆再進化</span>
@@ -84,7 +83,7 @@ class Home extends Component {
             </div>
           </div>
 
-          <div className="big-block relative">
+          <div className="big-block relative" id="statistic">
             <div className="d-flex flex-column align-items-start justify-content-center home-title mb-3">
               <span className="home-title-gray">STATISTICS</span>
               <span className="home-title-green">統計指標</span>

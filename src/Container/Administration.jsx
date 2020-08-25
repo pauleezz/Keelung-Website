@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 
 import ImageContent from "../Components/ImageContent.jsx";
+import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
 
 class Administration extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <ImageContent
           img="/pictures/admin_bg.png"
           title="市政顧問"
@@ -19,7 +21,9 @@ class Administration extends Component {
         <div className="app">
           <div style={{ position: "relative" }}>
             <div className="m-5">
-              <div className="home-title home-title-green my-3">基隆市市政顧問</div>
+              <div className="home-title home-title-green my-3">
+                基隆市市政顧問
+              </div>
               <div className="py-3" style={{ background: "#F7F7F7" }}>
                 <table class="table table-borderless">
                   <tbody>

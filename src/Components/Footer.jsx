@@ -57,17 +57,29 @@ class Footer extends Component {
                 <div className="footer-block">
                   <span className="footer-title mb-3">訊息快報</span>
                   <ul className="footer-list">
-                    <li>最新公告</li>
-                    <li>活動訊息</li>
-                    <li>市政新聞</li>
+                    <li>
+                      <a href=""></a>最新公告
+                    </li>
+                    <li>
+                      <a href=""></a>活動訊息
+                    </li>
+                    <li>
+                      <a href=""></a>市政新聞
+                    </li>
                   </ul>
                 </div>
                 <div className="footer-block">
                   <span className="footer-title mb-3">發現基隆</span>
                   <ul className="footer-list">
-                    <li>歷史沿革</li>
-                    <li>基隆簡介</li>
-                    <li>地理環境</li>
+                    <li>
+                      <a href="/know-keelung/history">歷史沿革</a>
+                    </li>
+                    <li>
+                      <a href="/know-keelung/keelung-intro">基隆簡介</a>
+                    </li>
+                    <li>
+                      <a href="/know-keelung/geography">地理環境</a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -75,10 +87,18 @@ class Footer extends Component {
                 <div className="footer-block">
                   <span className="footer-title mb-3">市府團隊</span>
                   <ul className="footer-list">
-                    <li>市長介紹</li>
-                    <li>副市長介紹</li>
-                    <li>組織架構</li>
-                    <li>市政顧問</li>
+                    <li>
+                      <a href="/about/mayor">市長介紹</a>
+                    </li>
+                    <li>
+                      <a href="/about/vice-mayor">副市長介紹</a>
+                    </li>
+                    <li>
+                      <a href="/about/organization">組織架構</a>
+                    </li>
+                    <li>
+                      <a href="/about/administration">市政顧問</a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -90,26 +110,58 @@ class Footer extends Component {
                   <div className="w-50">
                     <span className="footer-subtitle mb-3">主題服務</span>
                     <ul className="footer-list">
-                      <li>醫療保健</li>
-                      <li>社會福利</li>
-                      <li>觀光旅遊</li>
-                      <li>市民快線</li>
-                      <li>勞工就業</li>
-                      <li>教育學習</li>
-                      <li>文化休閒</li>
-                      <li>交通服務</li>
-                      <li>戶籍身份</li>
-                      <li>買屋賣屋</li>
-                      <li>法律服務</li>
-                      <li>環境能源</li>
+                      <li>
+                        <a href="/keelung-service/medical">醫療保健</a>
+                      </li>
+                      <li>
+                        <a href="/keelung-service/social-welfare">社會福利</a>
+                      </li>
+                      <li>
+                        <a href="/keelung-service/sightseeing">觀光旅遊</a>
+                      </li>
+                      <li>
+                        <a href="/keelung-service/citizen-express">市民快線</a>
+                      </li>
+                      <li>
+                        <a href="/keelung-service/labor-employment">勞工就業</a>
+                      </li>
+                      <li>
+                        <a href="/keelung-service/education">教育學習</a>
+                      </li>
+                      <li>
+                        <a href="/keelung-service/leisure">文化休閒</a>
+                      </li>
+                      <li>
+                        <a href="/keelung-service/traffic">交通服務</a>
+                      </li>
+                      <li>
+                        <a href="/keelung-service/household">戶籍身份</a>
+                      </li>
+                      <li>
+                        <a href="/keelung-service/housing">買屋賣屋</a>
+                      </li>
+                      <li>
+                        <a href="/keelung-service/law-service">法律服務</a>
+                      </li>
+                      <li>
+                        <a href="/keelung-service/environment">環境能源</a>
+                      </li>
                     </ul>
                   </div>
                   <div className="w-50">
                     <span className="footer-subtitle mb-3">分眾服務</span>
                     <ul className="footer-list">
-                      <li>基隆市民</li>
-                      <li>觀光旅遊</li>
-                      <li>非基隆市民</li>
+                      <li>
+                        <a href="/keelung-service/keelung-resident">基隆市民</a>
+                      </li>
+                      <li>
+                        <a href="/keelung-service/travel">觀光旅遊</a>
+                      </li>
+                      <li>
+                        <a href="/keelung-service/non-keelung-resident">
+                          非基隆市民
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -117,12 +169,25 @@ class Footer extends Component {
               <div className="footer-block">
                 <span className="footer-title mb-3">市政資訊</span>
                 <ul className="footer-list">
-                  <li>招標資訊</li>
-                  <li>徵才資訊</li>
-                  <li>施政計畫</li>
-                  <li>市政統計</li>
-                  <li>政府公開資訊</li>
-                  <li>常見問題</li>
+                  <li>
+                    <a href=""></a>招標資訊
+                  </li>
+                  <li>
+                    <a href="/municipal-information/recruitment-information">徵才資訊</a>
+                    
+                  </li>
+                  <li>
+                    <a href=""></a>施政計畫
+                  </li>
+                  <li>
+                    <a href=""></a>市政統計
+                  </li>
+                  <li>
+                    <a href=""></a>政府公開資訊
+                  </li>
+                  <li>
+                    <a href=""></a>常見問題
+                  </li>
                 </ul>
               </div>
             </div>

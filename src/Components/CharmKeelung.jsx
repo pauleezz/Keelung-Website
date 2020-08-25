@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class CharmKeelung extends Component {
     render() {
         return (
-          <div className="d-flex flex-column align-items-center justify-content-center big-block">
+          <div className="d-flex flex-column align-items-center justify-content-center big-block" id="charm">
             <div className="d-flex flex-column align-items-center justify-content-center home-title mb-3">
               <span className="home-title-gray">THE CHARM OF KEELUNG</span>
               <span className="home-title-green">魅力基隆</span>

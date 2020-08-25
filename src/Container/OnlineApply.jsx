@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 
 import ImageContent from "../Components/ImageContent.jsx";
+import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
 
 class OnlineApply extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <ImageContent
           img="pictures/online-apply_bg.png"
           title="線上申辦專區"

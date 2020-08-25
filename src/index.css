@@ -15,14 +15,14 @@ code {
 }
 
 a {
-  text-decoration: none;
-  color: black;
+  color: inherit;
+  text-decoration: inherit;
   display: inline-block;
 }
 
 a:hover {
-  text-decoration: none;
-  color: black;
+  color: inherit;
+  text-decoration: inherit;
 }
 
 input,
@@ -141,9 +141,9 @@ ul {
 
 .gray-box {
   width: 85%;
-  height: 170px;
+  height: 180px;
   background: #f7f7f7;
-  padding: 40px;
+  padding: 30px;
 }
 
 .gray-content {
@@ -152,7 +152,7 @@ ul {
 
 .sidenav {
   height: 90vh; /* Full-height: remove this if you want "auto" height */
-  width: 110px; /* Set the width of the sidebar */
+  width: 120px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 90px; /* Stay at the top */
@@ -172,9 +172,9 @@ ul {
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 3px 12px 3px 12px;
+  padding: 3px 10px 3px 10px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
   color: #ffffff;
   display: block;
 }
@@ -192,8 +192,8 @@ ul {
 }
 
 .orange-circle {
-  height: 90px; /* Full-height: remove this if you want "auto" height */
-  width: 90px; /* Set the width of the sidebar */
+  height: 100px; /* Full-height: remove this if you want "auto" height */
+  width: 100px; /* Set the width of the sidebar */
   background-color: #fa990d;
   overflow-x: hidden;
   border-radius: 50%;
@@ -241,4 +241,49 @@ ul {
 .menu-expand {
   padding: 25px;
 }
+
+.green-buttons {
+  background: #ffffff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.green-buttons-active {
+  color: #ffffff;
+  background: #65b017;
+  border: none;
+}
+
+input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  font-size: 17px;
+}
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+#news .nav-item .active{
+  background: #65B017;
+}
+
+.w-70{
+  width: 70%;
+}
+
+
 /* h1 margin: 1em auto */

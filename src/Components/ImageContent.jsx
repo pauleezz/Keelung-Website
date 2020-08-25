@@ -33,13 +33,13 @@ class ImageContent extends Component {
             paddingLeft: "4%",
             borderRadius: "50px",
             width: "40%",
-            height: "13%",
+            height: "100px",
             fontSize: "18px",
             backgroundImage:
               "linear-gradient(to left, rgba(0,0,0,0), rgba(255,255,255,100))",
             position: "absolute",
             zIndex: "1",
-            top: "7%",
+            top: "18%",
             left: "10%",
             overflow: "hidden",
           }}
