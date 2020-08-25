@@ -143,8 +143,8 @@
 .icon_but {
   border-radius: 50%;
   background-color: #f7f7f7;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 #keelung-service #pills-topic-tab.active {
@@ -157,5 +157,9 @@
 #keelung-service #pills-crowd-tab.normal {
   font-size: 30px;
   color: #ffffff;
+  background-color: #65b017;
+}
+
+.icon_but:hover{
   background-color: #65b017;
 }
