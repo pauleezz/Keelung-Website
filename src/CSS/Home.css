@@ -167,16 +167,6 @@
   color: #ffffff;
   background-color: #65b017;
 }
-.icon_but:hover .mask{
-  background-color: #65b017;
-  content: attr(hint1);
-  content: attr(hint2);
-  content: attr(hint3);
-  content: attr(hint4);
-  opacity: 1;
-  
-}
-
 .mask{
   position: absolute;
   display: flex;
@@ -201,8 +191,8 @@
   width: 150px;
   height: 150px;
 }
-.icon_crowd_but:hover .crowd_mask{
-  background-color: orange;
+.icon_but:hover .mask{
+  background-color: #65b017;
   content: attr(hint1);
   content: attr(hint2);
   content: attr(hint3);
@@ -234,3 +224,13 @@
   color:white;
   float: left;
 }
+.icon_crowd_but:hover .crowd_mask,.crowd_mask_col{
+  background-color: orange;
+  content: attr(hint1);
+  content: attr(hint2);
+  content: attr(hint3);
+  content: attr(hint4);
+  opacity: 1;
+  
+}
+
