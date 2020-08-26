@@ -139,6 +139,14 @@
   width: 100px;
 }
 
+.navbar-nav a{
+  text-decoration: inherit;
+}
+.navbar-nav a:focus{
+  text-decoration: inherit;
+  color: inherit;
+  background-color:inherit;
+} 
 
 .icon_but {
   position: relative;
@@ -148,14 +156,13 @@
   height: 150px;
 }
 
-#keelung-service #pills-topic-tab.active {
+#pills-topic-tab.active,.normal{
   font-size: 30px;
   color: #65b017 ;
   background-color: whitesmoke;
 }
 
-
-#keelung-service #pills-crowd-tab.normal {
+#pills-crowd-tab.normal {
   font-size: 30px;
   color: #ffffff;
   background-color: #65b017;
@@ -184,6 +191,46 @@
   width: 150px;
   height: 150px;
   color:white;
-  font-size: large;
+  font-size: medium;
   font-weight: bold;
 } 
+.icon_crowd_but{
+  position: relative;
+  background-color: #f7f7f7;
+  border-radius: 10%;
+  width: 150px;
+  height: 150px;
+}
+.icon_crowd_but:hover .crowd_mask{
+  background-color: orange;
+  content: attr(hint1);
+  content: attr(hint2);
+  content: attr(hint3);
+  content: attr(hint4);
+  opacity: 1;
+  
+}
+.crowd_mask{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0px;
+  left:0px;
+  z-index: 1000;
+  opacity: 0;
+  background-color: orange;
+  border-radius: 10%;
+  width: 150px;
+  height: 150px;
+  color:white;
+  font-size: medium;
+  font-weight: bold;
+}
+.crowd_mask_col{
+  margin-top:5%;
+  margin-left:13%;
+  font-size: xx-small;
+  color:white;
+  float: left;
+}
