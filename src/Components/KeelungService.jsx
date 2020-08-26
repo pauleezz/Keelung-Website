@@ -76,6 +76,10 @@ class KeelungService extends Component {
                       text="觀光旅遊"
                       href="/keelung-service/medical"
                       colnum = "col-3"
+                      hint1="主題美食"
+                      hint2="主題景點"
+                      hint3="住宿資訊"
+                      hint4="觀光公車"
                     />
                     <KeelungServiceIcon
                       icon_img="icon-04.png"

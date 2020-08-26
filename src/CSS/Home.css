@@ -141,10 +141,11 @@
 
 
 .icon_but {
+  position: relative;
   border-radius: 50%;
   background-color: #f7f7f7;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 #keelung-service #pills-topic-tab.active {
@@ -159,12 +160,30 @@
   color: #ffffff;
   background-color: #65b017;
 }
+.icon_but:hover .mask{
+  background-color: #65b017;
+  content: attr(hint1);
+  content: attr(hint2);
+  content: attr(hint3);
+  content: attr(hint4);
+  opacity: 1;
+  
+}
 
-.navbar-nav a{
-  text-decoration: inherit;
-}
-.navbar-nav a:focus{
-  text-decoration: inherit;
-  color: inherit;
-  background-color:inherit;
-}
+.mask{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0px;
+  left:0px;
+  z-index: 1000;
+  opacity: 0;
+  background-color: #65b017;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  color:white;
+  font-size: large;
+  font-weight: bold;
+} 
