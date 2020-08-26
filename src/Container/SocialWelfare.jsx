@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import ImageContent from "../Components/ImageContent.jsx";
+import ImageContentSection from "../Components/ImageContentSection.jsx";
 import ImageBlock from "../Components/ImageBlock.jsx";
 import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
@@ -10,7 +10,7 @@ class SocialWelfare extends Component {
     return (
       <div>
         <Navbar />
-        <ImageContent
+        <ImageContentSection
           img="/pictures/social-welfare/social-welfare_bg.png"
           title="社會福利"
           href={[
@@ -18,6 +18,11 @@ class SocialWelfare extends Component {
             ["基隆服務", "/", "/"],
             ["社會福利", "/"],
           ]}
+          sectionList={[
+            ["長者專區", "/"],
+            ["育兒專區", "/"],
+          ]}
+          top="-26px"
         />
         <div className="app">
           <div className="my-5">

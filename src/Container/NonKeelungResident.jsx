@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 
-import ImageContent from "../Components/ImageContent.jsx";
+import ImageContentSection from "../Components/ImageContentSection.jsx";
 import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
 import FullWidthBlock from "../Components/FullWidthBlock.jsx";
 import GreenBlock from "../Components/GreenBlock.jsx";
-import GreenBlockWithoutTitle from "../Components/GreenBlockWithoutTitle.jsx";
-import GreenBlockImage from "../Components/GreenBlockImage.jsx";
 import Circle from "../Components/Circle.jsx";
 
 class NonKeelungResident extends Component {
@@ -14,7 +12,7 @@ class NonKeelungResident extends Component {
     return (
       <div>
         <Navbar />
-        <ImageContent
+        <ImageContentSection
           img="/pictures/no-keelung-resident/img_bg.png"
           title="非基隆市民"
           href={[
@@ -22,6 +20,14 @@ class NonKeelungResident extends Component {
             ["基隆服務", "/", "/"],
             ["非基隆市民", "/"],
           ]}
+          sectionList={[
+            ["市民快線", "/"],
+            ["徵才資訊", "/"],
+            ["企業資訊", "/"],
+            ["買屋賣屋", "/"],
+            ["交通服務", "/"],
+          ]}
+          top="-26px"
         />
         <div className="app">
           <div className="d-flex flex-column align-items-center justify-content-center big-block">
@@ -33,29 +39,33 @@ class NonKeelungResident extends Component {
                 title="市政信箱"
                 radius="10vw"
                 backgroundcolor="#F7F7F7"
-                backgroundimage=""
+                backgroundimage="/pictures/keelung-resident/contact-03.png"
                 mx="5"
+                width="50%"
               />
               <Circle
                 title="訴願審議"
                 radius="10vw"
                 backgroundcolor="#F7F7F7"
-                backgroundimage=""
+                backgroundimage="/pictures/keelung-resident/contact-04.png"
                 mx="5"
+                width="50%"
               />
               <Circle
                 title="1999服務"
                 radius="10vw"
                 backgroundcolor="#F7F7F7"
-                backgroundimage=""
+                backgroundimage="/pictures/keelung-resident/contact-05.png"
                 mx="5"
+                width="50%"
               />
               <Circle
                 title="常見問答"
                 radius="10vw"
                 backgroundcolor="#F7F7F7"
-                backgroundimage=""
+                backgroundimage="/pictures/keelung-resident/contact-06.png"
                 mx="5"
+                width="50%"
               />
             </div>
           </div>
@@ -142,6 +152,7 @@ class NonKeelungResident extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/no-keelung-resident/traffic-1.png"
                 mx="5"
+                width="100%"
               />
               <Circle
                 title="路平專案"
@@ -149,6 +160,7 @@ class NonKeelungResident extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/no-keelung-resident/traffic-2.png"
                 mx="5"
+                width="100%"
               />
               <Circle
                 title="停車資訊"
@@ -156,6 +168,7 @@ class NonKeelungResident extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/no-keelung-resident/traffic-3.png"
                 mx="5"
+                width="100%"
               />
               <Circle
                 title="即時路況"
@@ -163,6 +176,7 @@ class NonKeelungResident extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/no-keelung-resident/traffic-4.png"
                 mx="5"
+                width="100%"
               />
             </div>
           </div>

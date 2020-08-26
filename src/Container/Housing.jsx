@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import ImageContent from "../Components/ImageContent.jsx";
+import ImageContentSection from "../Components/ImageContentSection.jsx";
 import ImageBlock from "../Components/ImageBlock.jsx";
 import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
@@ -10,7 +10,7 @@ class Housing extends Component {
         return (
           <div>
             <Navbar />
-            <ImageContent
+            <ImageContentSection
               img="/pictures/housing/housing_bg.png"
               title="買屋賣屋"
               href={[
@@ -18,6 +18,12 @@ class Housing extends Component {
                 ["基隆服務", "/", "/"],
                 ["買屋賣屋", "/"],
               ]}
+              sectionList={[
+                ["土地房屋價格查詢", "/"],
+                ["買屋、租屋補貼", "/"],
+                ["土地房屋稅務", "/"],
+              ]}
+              top="-26px"
             />
             <div className="app">
               <div className="my-5">

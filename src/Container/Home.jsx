@@ -30,18 +30,18 @@ class Home extends Component {
                   src="pictures/annie-spratt-U_Ff4ohzLSw-unspl.png"
                   className="subsidy-image"
                 />
-                <div className="subsidy-title d-flex align-items-center justify-content-center">
+                <button className="subsidy-title d-flex align-items-center justify-content-center">
                   <a href="/online-apply/service">補助申請服務</a>
-                </div>
+                </button>
               </div>
               <div className="subsidy-blcok col-12 col-lg-6 mb-2">
                 <img
                   src="pictures/avel-chuklanov-DUmFLtMeAbQ-uns.png"
                   className="subsidy-image"
                 />
-                <div className="subsidy-title d-flex align-items-center justify-content-center">
+                <button className="subsidy-title d-flex align-items-center justify-content-center">
                   <a href="/online-apply">線上申辦專區</a>
-                </div>
+                </button>
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@ class Home extends Component {
           <News />
 
           <CharmKeelung />
-          <div className="big-block" id="revolution">
+          <div className="big-block" id="revolustion">
             <div className="d-flex flex-column align-items-start justify-content-center home-title mb-3">
               <span className="home-title-gray">RE-EVOLUTION OF KEELUNG</span>
               <span className="home-title-green">基隆再進化</span>

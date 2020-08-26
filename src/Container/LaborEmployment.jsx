@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import ImageContent from "../Components/ImageContent.jsx";
+import ImageContentSection from "../Components/ImageContentSection.jsx";
 import ImageBlock from "../Components/ImageBlock.jsx";
 import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
@@ -10,7 +10,7 @@ class LaborEmployment extends Component {
         return (
           <div>
             <Navbar />
-            <ImageContent
+            <ImageContentSection
               img="/pictures/labor-employment/labor-employment_bg.png"
               title="勞工就業"
               href={[
@@ -18,6 +18,13 @@ class LaborEmployment extends Component {
                 ["基隆服務", "/", "/"],
                 ["勞工就業", "/"],
               ]}
+              sectionList={[
+                ["徵才資訊", "/"],
+                ["勞工權益", "/"],
+                ["職場權益", "/"],
+                ["退休福利", "/"],
+              ]}
+              top="-26px"
             />
             <div className="app">
               <div className="my-5">

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import ImageContent from "../Components/ImageContent.jsx";
+import ImageContentSection from "../Components/ImageContentSection.jsx";
 import ImageBlock from "../Components/ImageBlock.jsx";
 import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
@@ -10,7 +10,7 @@ class Environment extends Component {
         return (
           <div>
             <Navbar />
-            <ImageContent
+            <ImageContentSection
               img="/pictures/environment/environment_bg.png"
               title="環境能源"
               href={[
@@ -18,6 +18,12 @@ class Environment extends Component {
                 ["基隆服務", "/", "/"],
                 ["環境能源", "/"],
               ]}
+              sectionList={[
+                ["環保政策", "/"],
+                ["環境政策", "/"],
+              ]}
+              width="45%"
+              top="-26px"
             />
             <div className="app">
               <div className="my-5">

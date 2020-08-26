@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class ImageContent extends Component {
+class ImageContentSection extends Component {
   renderhref = (hrefList) =>
     hrefList.map((href) => (
       <div>
@@ -11,9 +11,19 @@ class ImageContent extends Component {
       </div>
     ));
 
+  renderSections = (section) => {
+    return section.map((s) => (
+      <div
+        className="mx-4 my-2 d-flex justify-content-center align-items-center"
+      >
+        <span>
+          <a href={s[1]}>{s[0]}</a>
+        </span>
+      </div>
+    ));
+  };
   render() {
-    const { img, title, href} = this.props;
-
+    const { img, title, href, sectionList, top } = this.props;
     return (
       <div>
         <img
@@ -48,19 +58,17 @@ class ImageContent extends Component {
           <span style={{ fontSize: "38px" }}>{title}</span>
           <div className="d-flex">{this.renderhref(href)}</div>
         </div>
+        <div
+          className="d-flex align-items-center justify-content-center flex-column"
+          style={{ position: "relative", top: top, zIndex: "2" }}
+        >
+          <div className="green-section d-flex row align-items-center justify-content-center">
+            {this.renderSections(sectionList)}
+          </div>
+        </div>
       </div>
     );
   }
 }
 
-export default ImageContent;
-
-// margin: 20px 0;
-// 	width: 300px;
-// 	height: 100px;
-// 	line-height: 100px;
-// 	border: 1px solid #ccc;
-// 	font-size: 24px;
-// 	font-weight: 900;
-// 	text-align: center;
-// border-radius: 50px;
+export default ImageContentSection;

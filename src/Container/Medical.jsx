@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import ImageContent from "../Components/ImageContent.jsx";
+import ImageContentSection from "../Components/ImageContentSection.jsx";
 import ImageBlock from "../Components/ImageBlock.jsx";
 import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
@@ -10,7 +10,7 @@ class Medical extends Component {
         return (
           <div>
             <Navbar />
-            <ImageContent
+            <ImageContentSection
               img="/pictures/covid/covid19_bg.png"
               title="醫療保健"
               href={[
@@ -18,6 +18,12 @@ class Medical extends Component {
                 ["基隆服務", "/", "/"],
                 ["醫療保健", "/"],
               ]}
+              sectionList={[
+                ["醫療資源", "/"],
+                ["防疫專區", "/"],
+                ["宣導防治", "/"],
+              ]}
+              top="-26px"
             />
             <div className="app">
               <div className="my-5">

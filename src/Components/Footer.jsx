@@ -32,7 +32,9 @@ class Footer extends Component {
                       color: "#FFFFFF",
                     }}
                   >
-                    本府位置圖
+                    <a href="https://www.klcg.gov.tw/tw/Default/GovMap.aspx">
+                      本府位置圖
+                    </a>
                   </button>
                   <button
                     style={{
@@ -43,12 +45,28 @@ class Footer extends Component {
                       color: "#FFFFFF",
                     }}
                   >
-                    使用意見調查
+                    <a href="https://goo.gl/forms/GI8YtQcBdHNM16k52">
+                      使用意見調查
+                    </a>
                   </button>
                 </div>
                 <div className="footer-list">
                   更新日期 109 - 08 - 15
                   <br /> 瀏覽人次 330,934,776
+                </div>
+                <div class="d-flex mt-5">
+                  <img
+                    src="/pictures/keelung-resident/contact-07.png"
+                    className="col-3"
+                  />
+                  <img
+                    src="/pictures/keelung-resident/contact-08.png"
+                    className="col-3"
+                  />
+                  <img
+                    src="/pictures/keelung-resident/contact-09.png"
+                    className="col-3"
+                  />
                 </div>
               </div>
             </div>
@@ -170,7 +188,8 @@ class Footer extends Component {
                 <span className="footer-title mb-3">市政資訊</span>
                 <ul className="footer-list">
                   <li>
-                    <a href=""></a>招標資訊
+                    <a href="/municipal-information/bid-information-simplify">招標資訊</a>
+                    
                   </li>
                   <li>
                     <a href="/municipal-information/recruitment-information">
@@ -202,30 +221,162 @@ class Footer extends Component {
                     <div className="mx-1">
                       <span className="footer-subtitle mb-3">本府各處網站</span>
                       <ul className="footer-list">
-                        <li>社會處</li>
-                        <li>地政處</li>
-                        <li>交通處</li>
-                        <li>產業發展處</li>
-                        <li>綜合發展處</li>
-                        <li>政風處</li>
-                        <li>主計處</li>
-                        <li>人事處</li>
-                        <li>都市發展處</li>
-                        <li>工務處</li>
-                        <li>教育處</li>
-                        <li>財政處</li>
-                        <li>民政處</li>
-                        <li>觀光及城市行銷處</li>
+                        <li>
+                          <a href="https://social.klcg.gov.tw/" target="_blank">
+                            社會處&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://land.klcg.gov.tw/" target="_blank">
+                            地政處&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://tourism.klcg.gov.tw/"
+                            target="_blank"
+                          >
+                            交通處&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://economy.klcg.gov.tw/"
+                            target="_blank"
+                          >
+                            產業發展處&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://development.klcg.gov.tw/"
+                            target="_blank"
+                          >
+                            綜合發展處&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://ethics.klcg.gov.tw/" target="_blank">
+                            政風處&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://accounting.klcg.gov.tw/"
+                            target="_blank"
+                          >
+                            主計處&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://personnel.klcg.gov.tw/"
+                            target="_blank"
+                          >
+                            人事處&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://urban.klcg.gov.tw/" target="_blank">
+                            都市發展處&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://publicworks.klcg.gov.tw/"
+                            target="_blank"
+                          >
+                            工務處&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.kl.edu.tw/v7/eduweb/"
+                            target="_blank"
+                          >
+                            教育處&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://financial.klcg.gov.tw/"
+                            target="_blank"
+                          >
+                            財政處&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://civil.klcg.gov.tw/" target="_blank">
+                            民政處&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://city.klcg.gov.tw/" target="_blank">
+                            觀光及城市行銷處&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
                       </ul>
                       <span className="footer-subtitle mb-3">區公所網站</span>
                       <ul className="footer-list">
-                        <li>七堵區公所</li>
-                        <li>暖暖區公所</li>
-                        <li>中山區公所</li>
-                        <li>仁愛區公所</li>
-                        <li>信義區公所</li>
-                        <li>中正區公所</li>
-                        <li>安樂區公所</li>
+                        <li>
+                          <a href="http://www.klct.gov.tw/" target="_blank">
+                            七堵區公所&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.klnn.gov.tw/" target="_blank">
+                            暖暖區公所&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="http://www.kljs.gov.tw/home.php"
+                            target="_blank"
+                          >
+                            中山區公所&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.klra.gov.tw/" target="_blank">
+                            仁愛區公所&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.klsy.gov.tw/" target="_blank">
+                            信義區公所&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.klzz.gov.tw/" target="_blank">
+                            中正區公所&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.klal.gov.tw/" target="_blank">
+                            安樂區公所&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -235,31 +386,131 @@ class Footer extends Component {
                         地政事務所網站
                       </span>
                       <ul className="footer-list">
-                        <li>基隆市地政事務所</li>
+                        <li>
+                          <a
+                            href="http://www.sinyi-land.gov.tw/"
+                            target="_blank"
+                          >
+                            基隆市地政事務所&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
                       </ul>
                       <span className="footer-subtitle mb-3">
                         戶政事務所網站
                       </span>
                       <ul className="footer-list">
-                        <li>七堵戶政事務所</li>
-                        <li>安樂戶政事務所</li>
-                        <li>中正戶政事務所</li>
+                        <li>
+                          <a
+                            href="http://www.cidu-house.gov.tw/"
+                            target="_blank"
+                          >
+                            七堵戶政事務所 &ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="http://www.anle-house.gov.tw/"
+                            target="_blank"
+                          >
+                            安樂戶政事務所&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="http://www.kljj-house.gov.tw/"
+                            target="_blank"
+                          >
+                            中正戶政事務所&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
                       </ul>
                       <span className="footer-subtitle mb-3">附屬機關網站</span>
                       <ul className="footer-list">
-                        <li>基隆家庭教育中心</li>
-                        <li>動物保護防疫所</li>
-                        <li>文化局</li>
-                        <li>市立體育場</li>
-                        <li>稅務局</li>
-                        <li>市立仁愛之家</li>
-                        <li>市立殯葬管理所</li>
-                        <li>市立醫院</li>
-                        <li>公車處</li>
-                        <li>環保局</li>
-                        <li>衛生局</li>
-                        <li>消防局</li>
-                        <li>警察局</li>
+                        <li>
+                          <a
+                            href="http://kl.familyedu.moe.gov.tw/"
+                            target="_blank"
+                          >
+                            基隆家庭教育中心&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.klaphio.gov.tw/" target="_blank">
+                            動物保護防疫所&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.klccab.gov.tw/" target="_blank">
+                            文化局&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://klms.klcg.gov.tw/" target="_blank">
+                            市立體育場&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.kltb.gov.tw/" target="_blank">
+                            稅務局&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.klrah.gov.tw/" target="_blank">
+                            市立仁愛之家&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.klms.gov.tw/" target="_blank">
+                            市立殯葬管理所&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.kmh.gov.tw/" target="_blank">
+                            市立醫院&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.klcba.gov.tw/" target="_blank">
+                            公車處&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.klepb.gov.tw/" target="_blank">
+                            環保局&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.klchb.gov.tw/" target="_blank">
+                            衛生局&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.klfd.gov.tw/" target="_blank">
+                            消防局&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.klg.gov.tw/" target="_blank">
+                            警察局&ensp;
+                            <i class="fa fa-external-link"></i>
+                          </a>
+                        </li>
                       </ul>
                       <span className="footer-subtitle mb-3">單位通訊</span>
                       <span className="footer-subtitle mb-3">機關業務介紹</span>

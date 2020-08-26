@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import ImageContent from "../Components/ImageContent.jsx";
+import ImageContentSection from "../Components/ImageContentSection.jsx";
 import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
 import FullWidthBlock from "../Components/FullWidthBlock.jsx";
@@ -14,7 +14,7 @@ class KeelungResident extends Component {
     return (
       <div>
         <Navbar />
-        <ImageContent
+        <ImageContentSection
           img="/pictures/keelung-resident/keelung-resident_bg.png"
           title="基隆市民"
           href={[
@@ -22,6 +22,21 @@ class KeelungResident extends Component {
             ["基隆服務", "/", "/"],
             ["基隆市民", "/"],
           ]}
+          sectionList={[
+            ["市民快線", "/"],
+            ["徵才資訊", "/"],
+            ["勞工權益", "/"],
+            ["戶籍身份", "/"],
+            ["社會關懷", "/"],
+            ["長者專區 ", "/"],
+            ["婦幼專區", "/"],
+            ["醫療服務", "/"],
+            ["教育服務", "/"],
+            ["環境政策", "/"],
+            ["法律服務", "/"],
+            ["文化休閒", "/"],
+          ]}
+          top="-40px"
         />
         <div className="app">
           <div className="d-flex flex-column align-items-center justify-content-center big-block">
@@ -33,29 +48,33 @@ class KeelungResident extends Component {
                 title="市政信箱"
                 radius="10vw"
                 backgroundcolor="#F7F7F7"
-                backgroundimage=""
+                backgroundimage="/pictures/keelung-resident/contact-03.png"
                 mx="5"
+                width="50%"
               />
               <Circle
                 title="訴願審議"
                 radius="10vw"
                 backgroundcolor="#F7F7F7"
-                backgroundimage=""
+                backgroundimage="/pictures/keelung-resident/contact-04.png"
                 mx="5"
+                width="50%"
               />
               <Circle
                 title="1999服務"
                 radius="10vw"
                 backgroundcolor="#F7F7F7"
-                backgroundimage=""
+                backgroundimage="/pictures/keelung-resident/contact-05.png"
                 mx="5"
+                width="50%"
               />
               <Circle
                 title="常見問答"
                 radius="10vw"
                 backgroundcolor="#F7F7F7"
-                backgroundimage=""
+                backgroundimage="/pictures/keelung-resident/contact-06.png"
                 mx="5"
+                width="50%"
               />
             </div>
           </div>
@@ -97,6 +116,7 @@ class KeelungResident extends Component {
                     backgroundcolor="#F7F7F7"
                     backgroundimage="/pictures/keelung-resident/labor-right-1.png"
                     mx="2"
+                    width="100%"
                   />
                   <Circle
                     title="訴願審議"
@@ -104,6 +124,7 @@ class KeelungResident extends Component {
                     backgroundcolor="#F7F7F7"
                     backgroundimage="/pictures/keelung-resident/labor-right-2.png"
                     mx="2"
+                    width="100%"
                   />
                   <Circle
                     title="1999服務"
@@ -111,6 +132,7 @@ class KeelungResident extends Component {
                     backgroundcolor="#F7F7F7"
                     backgroundimage="/pictures/keelung-resident/labor-right-3.png"
                     mx="2"
+                    width="100%"
                   />
                 </div>
               </div>
@@ -147,6 +169,7 @@ class KeelungResident extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/keelung-resident/social-care-1.png"
                 mx="4"
+                width="100%"
               />
               <Circle
                 title="高風險家庭"
@@ -154,6 +177,7 @@ class KeelungResident extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/keelung-resident/social-care-2.png"
                 mx="4"
+                width="100%"
               />
               <Circle
                 title="身心障礙"
@@ -161,6 +185,7 @@ class KeelungResident extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/keelung-resident/social-care-3.png"
                 mx="4"
+                width="100%"
               />
               <Circle
                 title="家暴防治"
@@ -168,6 +193,7 @@ class KeelungResident extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/keelung-resident/social-care-4.png"
                 mx="4"
+                width="100%"
               />
               <Circle
                 title="兒童及青少年"
@@ -175,6 +201,7 @@ class KeelungResident extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/keelung-resident/social-care-5.png"
                 mx="4"
+                width="100%"
               />
             </div>
           </div>

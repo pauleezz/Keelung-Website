@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import ImageContent from "../Components/ImageContent.jsx";
+import ImageContentSection from "../Components/ImageContentSection.jsx";
 import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
 import FullWidthBlock from "../Components/FullWidthBlock.jsx";
@@ -12,7 +12,7 @@ class Travel extends Component {
     return (
       <div>
         <Navbar />
-        <ImageContent
+        <ImageContentSection
           img="/pictures/travel/img_bg.png"
           title="旅遊觀光"
           href={[
@@ -20,6 +20,14 @@ class Travel extends Component {
             ["基隆服務", "/", "/"],
             ["旅遊觀光", "/"],
           ]}
+          sectionList={[
+            ["魅力基隆", "/"],
+            ["你的基隆", "/"],
+            ["天氣/活動", "/"],
+            ["主題旅遊", "/"],
+            ["交通資訊", "/"],
+          ]}
+          top="-26px"
         />
         <div className="app">
           <div className="d-flex row align-items-center justify-content-center big-block">
@@ -165,6 +173,7 @@ class Travel extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/travel/traffic-1.png"
                 mx="5"
+                width="100%"
               />
               <Circle
                 title="公車資訊"
@@ -172,6 +181,7 @@ class Travel extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/travel/traffic-2.png"
                 mx="5"
+                width="100%"
               />
               <Circle
                 title="即時公車動態"
@@ -179,6 +189,7 @@ class Travel extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/travel/traffic-3.png"
                 mx="5"
+                width="100%"
               />
               <Circle
                 title="停車資訊"
@@ -186,6 +197,7 @@ class Travel extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/travel/traffic-4.png"
                 mx="5"
+                width="100%"
               />
             </div>
           </div>
