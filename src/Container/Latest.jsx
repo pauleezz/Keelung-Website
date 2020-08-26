@@ -14,8 +14,8 @@ class Latest extends Component {
           title="最新公告"
           href={[
             ["首頁", "/", "/"],
-            ["訊息快報", "/", "/"],
-            ["最新公告", "/"],
+            ["訊息快報", "", "/"],
+            ["最新公告", ""],
           ]}
         />
         <div className="app">

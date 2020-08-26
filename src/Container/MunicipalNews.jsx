@@ -14,8 +14,8 @@ class MunicipalNews extends Component {
           title="市政新聞"
           href={[
             ["首頁", "/", "/"],
-            ["訊息快報", "/", "/"],
-            ["市政新聞", "/"],
+            ["訊息快報", "", "/"],
+            ["市政新聞", ""],
           ]}
         />
         <div className="app">

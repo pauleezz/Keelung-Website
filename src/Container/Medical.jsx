@@ -15,8 +15,8 @@ class Medical extends Component {
               title="醫療保健"
               href={[
                 ["首頁", "/", "/"],
-                ["基隆服務", "/", "/"],
-                ["醫療保健", "/"],
+                ["基隆服務", "/#keelung-service", "/"],
+                ["醫療保健", ""],
               ]}
               sectionList={[
                 ["醫療資源", "/"],

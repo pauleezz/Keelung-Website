@@ -15,8 +15,8 @@ class FAQ extends Component {
           title="常見問題"
           href={[
             ["首頁", "/", "/"],
-            ["市政資訊", "/", "/"],
-            ["常見問題", "/"],
+            ["市政資訊", "", "/"],
+            ["常見問題", ""],
           ]}
         />
         <div className="app">
@@ -53,6 +53,58 @@ class FAQ extends Component {
                   </div>
                 </form>
               </div>
+            </div>
+            <div style={{ width: "85%" }}>
+              <table>
+                <tr>
+                  <th class="text-center">標題</th>
+                  <th class="text-center">類別</th>
+                </tr>
+                <tr>
+                  <td>基隆市政府暨所屬機關臨時人員服務及權益規定如何？</td>
+                  <td class="text-center">其他</td>
+                </tr>
+                <tr>
+                  <td>本府所屬學校代理教師敘薪規定如何？</td>
+                  <td class="text-center">代理教師敘薪</td>
+                </tr>
+                <tr>
+                  <td>
+                    基隆市政府暨所屬機關工友（含技工、駕駛）服務及權益規定如何？
+                  </td>
+                  <td class="text-center">其他</td>
+                </tr>
+                <tr>
+                  <td>基隆市政府所屬學校代理教師敘薪應注意事項為何？</td>
+                  <td class="text-center">代理教師敘薪</td>
+                </tr>
+                <tr>
+                  <td>基隆市政府暨所屬機關編制人員服務及權益規定如何？</td>
+                  <td class="text-center">其他</td>
+                </tr>
+                <tr>
+                  <td>
+                    若考績年度內，請事、病假合計未超過5日，則當年年終考績是否一定可以拿甲等？
+                  </td>
+                  <td class="text-center">其他</td>
+                </tr>
+                <tr>
+                  <td>基隆市政府暨所屬機關約聘僱人員服務及權益規定如何？</td>
+                  <td class="text-center">其他</td>
+                </tr>
+                <tr>
+                  <td>基隆市政府各處掌理事項為何？</td>
+                  <td class="text-center">組織職掌</td>
+                </tr>
+                <tr>
+                  <td>本府所屬二級機關掌理事項為何？</td>
+                  <td class="text-center">組織職掌</td>
+                </tr>
+                <tr>
+                  <td>各區公所掌理事項為何？</td>
+                  <td class="text-center">組織職掌</td>
+                </tr>
+              </table>
             </div>
             <div className="mt-5">
               <nav aria-label="Page navigation example">

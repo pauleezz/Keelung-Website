@@ -15,8 +15,8 @@ class EnterpriseInvestment extends Component {
               title="企業投資"
               href={[
                 ["首頁", "/", "/"],
-                ["基隆服務", "/", "/"],
-                ["企業投資", "/"],
+                ["基隆服務", "/#keelung-service", "/"],
+                ["企業投資", ""],
               ]}
             />
             <div className="app">

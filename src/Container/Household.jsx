@@ -15,8 +15,8 @@ class Household extends Component {
               title="戶籍身份"
               href={[
                 ["首頁", "/", "/"],
-                ["基隆服務", "/", "/"],
-                ["戶籍身份", "/"],
+                ["基隆服務", "/#keelung-service", "/"],
+                ["戶籍身份", ""],
               ]}
             />
             <div className="app">

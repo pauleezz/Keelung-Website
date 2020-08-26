@@ -13,8 +13,8 @@ class History extends Component {
           title="歷史沿革"
           href={[
             ["首頁", "/", "/"],
-            ["發現基隆", "/", "/"],
-            ["歷史沿革", "/"],
+            ["發現基隆", "/know-keelung/discover-keelung", "/"],
+            ["歷史沿革", ""],
           ]}
         />
         <div className="app">

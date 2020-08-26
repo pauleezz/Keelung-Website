@@ -63,7 +63,7 @@ class KeelungService extends Component {
                       icon_img="icon-01.png"
                       text="醫療保健"
                       href="/keelung-service/medical"
-                      colnum = "col-3"
+                      colnum="col-3"
                       hint1="Covid專區"
                       hint2="防疫政策"
                       hint3="醫療補助"
@@ -72,8 +72,8 @@ class KeelungService extends Component {
                     <KeelungServiceIcon
                       icon_img="icon-02.png"
                       text="社會福利"
-                      href="/keelung-service/medical"
-                      colnum = "col-3"
+                      href="/keelung-service/social-welfare"
+                      colnum="col-3"
                       hint1="長照專區"
                       hint2="生育津貼"
                       hint3="社會關懷"
@@ -82,8 +82,8 @@ class KeelungService extends Component {
                     <KeelungServiceIcon
                       icon_img="icon-03.png"
                       text="觀光旅遊"
-                      href="/keelung-service/medical"
-                      colnum = "col-3"
+                      href="/keelung-service/sightseeing"
+                      colnum="col-3"
                       hint1="主題美食"
                       hint2="主題景點"
                       hint3="住宿資訊"
@@ -92,8 +92,8 @@ class KeelungService extends Component {
                     <KeelungServiceIcon
                       icon_img="icon-04.png"
                       text="市民快線"
-                      href="/keelung-service/medical"
-                      colnum = "col-3"
+                      href="/keelung-service/citizen-express"
+                      colnum="col-3"
                       hint1="線上陳情"
                       hint2="訴願審議"
                       hint3="1999服務"
@@ -102,8 +102,8 @@ class KeelungService extends Component {
                     <KeelungServiceIcon
                       icon_img="icon-05.png"
                       text="勞工就業"
-                      href="/keelung-service/medical"
-                      colnum = "col-3"
+                      href="/keelung-service/labor-employment"
+                      colnum="col-3"
                       hint1="職場權益"
                       hint2="退休福利"
                       hint3="徵才資訊"
@@ -112,8 +112,8 @@ class KeelungService extends Component {
                     <KeelungServiceIcon
                       icon_img="icon-06.png"
                       text="教育學習"
-                      href="/keelung-service/medical"
-                      colnum = "col-3"
+                      href="/keelung-service/education"
+                      colnum="col-3"
                       hint1="幼兒教育"
                       hint2="國小"
                       hint3="國中"
@@ -122,8 +122,8 @@ class KeelungService extends Component {
                     <KeelungServiceIcon
                       icon_img="icon-07.png"
                       text="文化休閒"
-                      href="/keelung-service/medical"
-                      colnum = "col-3"
+                      href="/keelung-service/leisure"
+                      colnum="col-3"
                       hint1="藝文活動"
                       hint2="體育賽事"
                       hint3="運動場館"
@@ -132,8 +132,8 @@ class KeelungService extends Component {
                     <KeelungServiceIcon
                       icon_img="icon-08.png"
                       text="交通服務"
-                      href="/keelung-service/medical"
-                      colnum = "col-3"
+                      href="/keelung-service/traffic"
+                      colnum="col-3"
                       hint1="監理服務"
                       hint2="路平專案"
                       hint3="即時路況"
@@ -142,8 +142,8 @@ class KeelungService extends Component {
                     <KeelungServiceIcon
                       icon_img="icon-09.png"
                       text="戶籍身份"
-                      href="/keelung-service/medical"
-                      colnum = "col-3"
+                      href="/keelung-service/household"
+                      colnum="col-3"
                       hint1="戶籍登記"
                       hint2="結婚登記"
                       hint3="身分證換發"
@@ -152,8 +152,8 @@ class KeelungService extends Component {
                     <KeelungServiceIcon
                       icon_img="icon-10.png"
                       text="買屋賣屋"
-                      href="/keelung-service/medical"
-                      colnum = "col-3"
+                      href="/keelung-service/housing"
+                      colnum="col-3"
                       hint1="住宅補貼"
                       hint2="價格查詢"
                       hint3="土地房屋稅務"
@@ -162,8 +162,8 @@ class KeelungService extends Component {
                     <KeelungServiceIcon
                       icon_img="icon-11.png"
                       text="法律服務"
-                      href="/keelung-service/medical"
-                      colnum = "col-3"
+                      href="/keelung-service/law-service"
+                      colnum="col-3"
                       hint1="法律諮詢"
                       hint2="法規查詢"
                       hint3="法規審議"
@@ -171,8 +171,8 @@ class KeelungService extends Component {
                     <KeelungServiceIcon
                       icon_img="icon-12.png"
                       text="環境保護"
-                      href="/keelung-service/medical"
-                      colnum = "col-3"
+                      href="/keelung-service/environment"
+                      colnum="col-3"
                       hint1="環保政策"
                       hint2="垃圾清理"
                       hint3="水情水利"
@@ -188,8 +188,8 @@ class KeelungService extends Component {
                     <CrowdIcon
                       icon_img="icon-13.png"
                       text="基隆市民"
-                      href="/keelung-service/medical"
-                      colnum = "col-4"
+                      href="/keelung-service/keelung-resident"
+                      colnum="col-4"
                       hint1="徵才資訊"
                       hint2="企業資訊"
                       hint3="房屋稅務"
@@ -198,8 +198,8 @@ class KeelungService extends Component {
                     <CrowdIcon
                       icon_img="icon-14.png"
                       text="旅遊觀光"
-                      href="/keelung-service/medical"
-                      colnum = "col-4"
+                      href="/keelung-service/travel"
+                      colnum="col-4"
                       hint1="魅力基隆"
                       hint2="主題旅遊"
                       hint3="交通資訊"
@@ -208,8 +208,8 @@ class KeelungService extends Component {
                     <CrowdIcon
                       icon_img="icon-15.png"
                       text="非基隆市民"
-                      href="/keelung-service/medical"
-                      colnum = "col-4"
+                      href="/keelung-service/non-keelung-resident"
+                      colnum="col-4"
                       hint1="徵才資訊"
                       hint2="企業資訊"
                       hint3="房屋稅務"
@@ -219,146 +219,6 @@ class KeelungService extends Component {
                 </div>
               </div>
             </div>
-            {/* <div class="d-flex flex-column align-items-center justify-content-center">
-              <nav className="w-100">
-                <div
-                  class="d-flex justify-content-center align-items-center nav nav-tabs"
-                  id="nav-tab"
-                  role="tablist"
-                >
-                  <a
-                    class="nav-item nav-link active d-flex justify-content-center normal"
-                    id="nav-home-tab"
-                    data-toggle="tab"
-                    href="#nav-home"
-                    role="tab"
-                    aria-controls="nav-home"
-                    aria-selected="true"
-                    style={{ width: "200px" }}
-                  >
-                    主題服務
-                  </a>
-                  <a
-                    class="nav-item nav-link d-flex justify-content-center normal"
-                    id="nav-profile-tab"
-                    data-toggle="tab"
-                    href="#nav-profile"
-                    role="tab"
-                    aria-controls="nav-profile"
-                    aria-selected="false"
-                    style={{ width: "200px" }}
-                  >
-                    分眾服務
-                  </a>
-                </div>
-              </nav>
-              <div class="tab-content" id="nav-tabContent">
-                <div
-                  class="d-flex align items-center justify-content-center row tab-pane fade show active my-5"
-                  id="nav-home"
-                  role="tabpanel"
-                  aria-labelledby="nav-home-tab"
-                >
-                  <KeelungServiceIcon
-                    icon_img="icon-01.png"
-                    text="醫療保健"
-                    href="/keelung-service/medical"
-                    colnum="col-3"
-                  />
-                  <KeelungServiceIcon
-                    icon_img="icon-02.png"
-                    text="社會福利"
-                    href="/keelung-service/medical"
-                    colnum="col-3"
-                  />
-                  <KeelungServiceIcon
-                    icon_img="icon-03.png"
-                    text="觀光旅遊"
-                    href="/keelung-service/medical"
-                    colnum="col-3"
-                  />
-                  <KeelungServiceIcon
-                    icon_img="icon-04.png"
-                    text="市民快線"
-                    href="/keelung-service/medical"
-                    colnum="col-3"
-                  />
-                  <KeelungServiceIcon
-                    icon_img="icon-05.png"
-                    text="勞工就業"
-                    href="/keelung-service/medical"
-                    colnum="col-3"
-                  />
-                  <KeelungServiceIcon
-                    icon_img="icon-06.png"
-                    text="教育學習"
-                    href="/keelung-service/medical"
-                    colnum="col-3"
-                  />
-                  <KeelungServiceIcon
-                    icon_img="icon-07.png"
-                    text="文化休閒"
-                    href="/keelung-service/medical"
-                    colnum="col-3"
-                  />
-                  <KeelungServiceIcon
-                    icon_img="icon-08.png"
-                    text="交通服務"
-                    href="/keelung-service/medical"
-                    colnum="col-3"
-                  />
-                  <KeelungServiceIcon
-                    icon_img="icon-09.png"
-                    text="戶籍身份"
-                    href="/keelung-service/medical"
-                    colnum="col-3"
-                  />
-                  <KeelungServiceIcon
-                    icon_img="icon-10.png"
-                    text="買屋賣屋"
-                    href="/keelung-service/medical"
-                    colnum="col-3"
-                  />
-                  <KeelungServiceIcon
-                    icon_img="icon-11.png"
-                    text="法律服務"
-                    href="/keelung-service/medical"
-                    colnum="col-3"
-                  />
-                  <KeelungServiceIcon
-                    icon_img="icon-12.png"
-                    text="環境保護"
-                    href="/keelung-service/medical"
-                    colnum="col-3"
-                  />
-                </div>
-                <div
-                  class="d-flex tab-pane fade"
-                  id="nav-profile"
-                  role="tabpanel"
-                  aria-labelledby="nav-profile-tab"
-                >
-                  <KeelungServiceIcon
-                    icon_img="icon-13.png"
-                    text="基隆市民"
-                    href="/keelung-service/medical"
-                    colnum="col-4"
-                  />
-                  <KeelungServiceIcon
-                    icon_img="icon-14.png"
-                    text="旅遊觀光"
-                    href="/keelung-service/medical"
-                    colnum="col-4"
-                  />
-                  <KeelungServiceIcon
-                    icon_img="icon-15.png"
-                    text="非基隆市民"
-                    href="/keelung-service/medical"
-                    colnum="col-4"
-                  />
-                </div>
-              </div>
-            </div> */}
           </div>
         );
     }

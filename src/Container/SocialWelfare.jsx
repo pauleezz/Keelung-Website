@@ -15,8 +15,8 @@ class SocialWelfare extends Component {
           title="社會福利"
           href={[
             ["首頁", "/", "/"],
-            ["基隆服務", "/", "/"],
-            ["社會福利", "/"],
+            ["基隆服務", "/#keelung-service", "/"],
+            ["社會福利", ""],
           ]}
           sectionList={[
             ["長者專區", "/"],

@@ -15,8 +15,8 @@ class BidInformationDetail extends Component {
           title="招標資訊"
           href={[
             ["首頁", "/", "/"],
-            ["政府服務", "/", "/"],
-            ["招標資訊", "/"],
+            ["政府服務", "", "/"],
+            ["招標資訊", ""],
           ]}
         />
         <div className="app">

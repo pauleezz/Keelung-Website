@@ -15,8 +15,8 @@ class Leisure extends Component {
               title="文化休閒"
               href={[
                 ["首頁", "/", "/"],
-                ["基隆服務", "/", "/"],
-                ["文化休閒", "/"],
+                ["基隆服務", "/#keelung-service", "/"],
+                ["文化休閒", ""],
               ]}
             />
             <div className="app">

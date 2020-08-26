@@ -14,8 +14,8 @@ class Geography extends Component {
           title="地理環境"
           href={[
             ["首頁", "/", "/"],
-            ["發現基隆", "/", "/"],
-            ["地理環境", "/"],
+            ["發現基隆", "/know-keelung/discover-keelung", "/"],
+            ["地理環境", ""],
           ]}
         />
         <div className="app">

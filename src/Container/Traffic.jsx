@@ -15,8 +15,8 @@ class Traffic extends Component {
               title="交通服務"
               href={[
                 ["首頁", "/", "/"],
-                ["基隆服務", "/", "/"],
-                ["交通服務", "/"],
+                ["基隆服務", "/#keelung-service", "/"],
+                ["交通服務", ""],
               ]}
             />
             <div className="app">

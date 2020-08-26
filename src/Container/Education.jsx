@@ -15,8 +15,8 @@ class Education extends Component {
               title="教育學習"
               href={[
                 ["首頁", "/", "/"],
-                ["基隆服務", "/", "/"],
-                ["教育學習", "/"],
+                ["基隆服務", "/#keelung-service", "/"],
+                ["教育學習", ""],
               ]}
             />
             <div className="app">

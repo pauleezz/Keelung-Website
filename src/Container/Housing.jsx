@@ -15,8 +15,8 @@ class Housing extends Component {
               title="買屋賣屋"
               href={[
                 ["首頁", "/", "/"],
-                ["基隆服務", "/", "/"],
-                ["買屋賣屋", "/"],
+                ["基隆服務", "/#keelung-service", "/"],
+                ["買屋賣屋", ""],
               ]}
               sectionList={[
                 ["土地房屋價格查詢", "/"],

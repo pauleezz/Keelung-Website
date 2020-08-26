@@ -15,8 +15,8 @@ class ViceMayor extends Component {
           title="市政顧問"
           href={[
             ["首頁", "/", "/"],
-            ["市府團隊", "/", "/"],
-            ["副市長介紹", "/"],
+            ["市府團隊", "", "/"],
+            ["副市長介紹", ""],
           ]}
         />
         <div className="app">

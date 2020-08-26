@@ -4,6 +4,7 @@ import ImageContent from "../Components/ImageContent.jsx";
 import ImageBlock from "../Components/ImageBlock.jsx";
 import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
+import TableContent from "../Components/TableContent.jsx";
 
 class BidInformation extends Component {
   render() {
@@ -15,8 +16,8 @@ class BidInformation extends Component {
           title="招標資訊"
           href={[
             ["首頁", "/", "/"],
-            ["市政資訊", "/", "/"],
-            ["招標資訊", "/"],
+            ["市政資訊", "", "/"],
+            ["招標資訊", ""],
           ]}
         />
         <div className="app">
@@ -69,6 +70,86 @@ class BidInformation extends Component {
                   </div>
                 </form>
               </div>
+            </div>
+            <div style={{ width: "85%" }}>
+              <table>
+                <tr>
+                  <th class="text-center">發布時間</th>
+                  <th class="text-center">標題</th>
+                  <th class="text-center">招標狀態</th>
+                  <th class="text-center">公告次數</th>
+                </tr>
+                <TableContent
+                  date="2020/08/10"
+                  title="碇內國中108年度老舊廁所整修工程"
+                  tag={["工程", "#65B017"]}
+                  dep="已公告"
+                  num="3"
+                />
+                <TableContent
+                  date="2020/08/07"
+                  title="德和國小附設幼兒園109年增班工程"
+                  tag={["工程", "#65B017"]}
+                  dep="已公告"
+                  num="3"
+                />
+                <TableContent
+                  date="2020/08/07"
+                  title="基隆市建德國小附設幼兒園109年度幼兒園增班工程"
+                  tag={["工程", "#65B017"]}
+                  dep="已公告"
+                  num="3"
+                />
+                <TableContent
+                  date="2020/08/07"
+                  title="基隆市中山國民小學西棟大樓校舍耐震能力改善計畫補強工程"
+                  tag={["工程", "#65B017"]}
+                  dep="已公告"
+                  num="3"
+                />
+                <TableContent
+                  date="2020/08/07"
+                  title="基隆八斗國民小學日照樓耐震能力補強工程"
+                  tag={["工程", "#65B017"]}
+                  dep="已公告"
+                  num="3"
+                />
+                <TableContent
+                  date="2020/08/07"
+                  title="108年老舊廁所環境設備改善工程"
+                  tag={["工程", "#65B017"]}
+                  dep="已公告"
+                  num="3"
+                />
+                <TableContent
+                  date="2020/08/07"
+                  title="中正國小仁愛樓結構補強工程"
+                  tag={["工程", "#65B017"]}
+                  dep="已公告"
+                  num="3"
+                />
+                <TableContent
+                  date="2020/08/06"
+                  title="109A11瑪陵坑溪水質水量保護區回饋金環境改善工程(單價標)"
+                  tag={["財務", "#FA990D"]}
+                  dep="已公告"
+                  num="3"
+                />
+                <TableContent
+                  date="2020/08/05"
+                  title="通仁街107巷67號前巷道邊坡災害復建工程"
+                  tag={["工程", "#65B017"]}
+                  dep="已公告"
+                  num="3"
+                />
+                <TableContent
+                  date="2020/08/05"
+                  title="室外球場修繕工程"
+                  tag={["工程", "#65B017"]}
+                  dep="已公告"
+                  num="3"
+                />
+              </table>
             </div>
             <div className="mt-5">
               <nav aria-label="Page navigation example">

@@ -19,8 +19,8 @@ class Mail extends Component {
           title="市政信箱"
           href={[
             ["首頁", "/", "/"],
-            ["基隆服務", "/", "/"],
-            ["市政信箱", "/"],
+            ["基隆服務", "/#keelung-service", "/"],
+            ["市政信箱", ""],
           ]}
         />
         <div className="app">

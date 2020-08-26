@@ -15,8 +15,8 @@ class KeelungIntro extends Component {
           title="基隆簡介"
           href={[
             ["首頁", "/", "/"],
-            ["發現基隆", "/", "/"],
-            ["基隆簡介", "/"],
+            ["發現基隆", "/know-keelung/discover-keelung", "/"],
+            ["基隆簡介", ""],
           ]}
         />
         <div className="app">

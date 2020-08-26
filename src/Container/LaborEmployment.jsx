@@ -15,8 +15,8 @@ class LaborEmployment extends Component {
               title="勞工就業"
               href={[
                 ["首頁", "/", "/"],
-                ["基隆服務", "/", "/"],
-                ["勞工就業", "/"],
+                ["基隆服務", "/#keelung-service", "/"],
+                ["勞工就業", ""],
               ]}
               sectionList={[
                 ["徵才資訊", "/"],

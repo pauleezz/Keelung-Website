@@ -15,8 +15,8 @@ class Sightseeing extends Component {
           title="觀光旅遊"
           href={[
             ["首頁", "/", "/"],
-            ["基隆服務", "/", "/"],
-            ["觀光旅遊", "/"],
+            ["基隆服務", "/#keelung-service", "/"],
+            ["觀光旅遊", ""],
           ]}
         />
         <div className="app">

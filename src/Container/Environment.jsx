@@ -15,8 +15,8 @@ class Environment extends Component {
               title="環境能源"
               href={[
                 ["首頁", "/", "/"],
-                ["基隆服務", "/", "/"],
-                ["環境能源", "/"],
+                ["基隆服務", "/#keelung-service", "/"],
+                ["環境能源", ""],
               ]}
               sectionList={[
                 ["環保政策", "/"],

@@ -17,15 +17,15 @@ class DiscoverKeelung extends Component {
           title="發現基隆"
           href={[
             ["首頁", "/", "/"],
-            ["認識基隆", "/", "/"],
-            ["發現基隆", "/"],
+            ["認識基隆", "", "/"],
+            ["發現基隆", ""],
           ]}
         />
         <div className="app">
           <div className="d-flex row align-items-center justify-content-center big-block">
             <div className="col-12 col-lg-6 end">
               <div className="d-flex justify-content-start home-title home-title-green my-3 w-100">
-                交通資訊
+                魅力基隆
               </div>
               <div className="mr-3">
                 魅力基隆為基隆市政府觀光及城市行銷處新聞科定期以季刊發行市政刊物
@@ -140,6 +140,10 @@ class DiscoverKeelung extends Component {
               <div className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100">
                 活動
               </div>
+              <img
+                src="/pictures/travel/travel-activity.png"
+                style={{ width: "100%" }}
+              />
             </div>
           </div>
           <div className="d-flex flex-column align-items-center justify-content-center big-block">
@@ -165,6 +169,7 @@ class DiscoverKeelung extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/travel/traffic-1.png"
                 mx="5"
+                width="100%"
               />
               <Circle
                 title="公車資訊"
@@ -172,6 +177,7 @@ class DiscoverKeelung extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/travel/traffic-2.png"
                 mx="5"
+                width="100%"
               />
               <Circle
                 title="即時公車動態"
@@ -179,6 +185,7 @@ class DiscoverKeelung extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/travel/traffic-3.png"
                 mx="5"
+                width="100%"
               />
               <Circle
                 title="停車資訊"
@@ -186,6 +193,7 @@ class DiscoverKeelung extends Component {
                 backgroundcolor="#F7F7F7"
                 backgroundimage="/pictures/travel/traffic-4.png"
                 mx="5"
+                width="100%"
               />
             </div>
           </div>

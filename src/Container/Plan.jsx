@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import ImageContent from "../Components/ImageContent.jsx";
-import ImageBlock from "../Components/ImageBlock.jsx";
 import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
 
@@ -15,8 +14,8 @@ class Plan extends Component {
           title="施政計畫"
           href={[
             ["首頁", "/", "/"],
-            ["市政資訊", "/", "/"],
-            ["施政計畫", "/"],
+            ["市政資訊", "", "/"],
+            ["施政計畫", ""],
           ]}
         />
         <div className="app">
@@ -26,7 +25,7 @@ class Plan extends Component {
               style={{ width: "90%", borderBottom: "solid 4px #DDDDDD" }}
             >
               <div className="d-flex justify-content-start home-title home-title-green my-3">
-                常見問題
+                施政計畫
               </div>
               <div class="search-container">
                 <form class="d-flex align-items-center">
@@ -52,6 +51,76 @@ class Plan extends Component {
                   </div>
                 </form>
               </div>
+            </div>
+            <div style={{ width: "85%" }}>
+              <table>
+                <tr>
+                  <th class="text-center">年度</th>
+                  <th class="text-center">標題</th>
+                  <th class="text-center">類別</th>
+                  <th class="text-center">瀏覽人次</th>
+                </tr>
+                <tr>
+                  <td class="text-center">109年度</td>
+                  <td>基隆市議會第19屆第3次定期會市長施政總報告</td>
+                  <td class="text-center">市長施政總報告</td>
+                  <td class="text-center">3</td>
+                </tr>
+                <tr>
+                  <td class="text-center">109年度</td>
+                  <td>基隆市政府中程施政計畫(109至112年度)</td>
+                  <td class="text-center">中程施政計畫</td>
+                  <td class="text-center">3</td>
+                </tr>
+                <tr>
+                  <td class="text-center">108年度</td>
+                  <td>108年度施政計畫績效成果報告</td>
+                  <td class="text-center">年度施政計畫</td>
+                  <td class="text-center">3</td>
+                </tr>
+                <tr>
+                  <td class="text-center">108年度</td>
+                  <td>109年度施政計畫</td>
+                  <td class="text-center">年度施政計畫</td>
+                  <td class="text-center">3</td>
+                </tr>
+                <tr>
+                  <td class="text-center">108年度</td>
+                  <td>99年度績效成果報告</td>
+                  <td class="text-center">年度施政計畫</td>
+                  <td class="text-center">3</td>
+                </tr>
+                <tr>
+                  <td class="text-center">108年度</td>
+                  <td>基隆市議會第19屆第2次定期會市長施政總報告</td>
+                  <td class="text-center">市長施政總報告</td>
+                  <td class="text-center">3</td>
+                </tr>
+                <tr>
+                  <td class="text-center">108年度</td>
+                  <td>基隆市議會第19屆第1次定期會市長施政總報告</td>
+                  <td class="text-center">市長施政總報告</td>
+                  <td class="text-center">3</td>
+                </tr>
+                <tr>
+                  <td class="text-center">108年度</td>
+                  <td>108年度施政計畫</td>
+                  <td class="text-center">年度施政計畫</td>
+                  <td class="text-center">3</td>
+                </tr>
+                <tr>
+                  <td class="text-center">107年度</td>
+                  <td>107年度施政績效成果報告</td>
+                  <td class="text-center">年度施政計畫</td>
+                  <td class="text-center">3</td>
+                </tr>
+                <tr>
+                  <td class="text-center">107年度</td>
+                  <td>基隆市議會第18屆第8次定期會市長施政總報告</td>
+                  <td class="text-center">市長施政總報告</td>
+                  <td class="text-center">3</td>
+                </tr>
+              </table>
             </div>
             <div className="mt-5">
               <nav aria-label="Page navigation example">

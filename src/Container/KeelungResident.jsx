@@ -19,8 +19,8 @@ class KeelungResident extends Component {
           title="基隆市民"
           href={[
             ["首頁", "/", "/"],
-            ["基隆服務", "/", "/"],
-            ["基隆市民", "/"],
+            ["基隆服務", "/#keelung-service", "/"],
+            ["基隆市民", ""],
           ]}
           sectionList={[
             ["市民快線", "/"],

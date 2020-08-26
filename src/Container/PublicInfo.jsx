@@ -14,8 +14,8 @@ class PublicInfo extends Component {
           title="政府公開資訊"
           href={[
             ["首頁", "/", "/"],
-            ["市政資訊", "/", "/"],
-            ["政府公開資訊", "/"],
+            ["市政資訊", "", "/"],
+            ["政府公開資訊", ""],
           ]}
         />
         <div className="app">
@@ -27,6 +27,46 @@ class PublicInfo extends Component {
               <div className="d-flex justify-content-center home-title home-title-green my-3 w-100">
                 政府公開資訊
               </div>
+            </div>
+            <div style={{ width: "85%" }}>
+              <table>
+                <tr>
+                  <th class="text-center">年度</th>
+                </tr>
+                <tr>
+                  <td class="text-center">前瞻基礎建設計畫</td>
+                </tr>
+                <tr>
+                  <td class="text-center">公務出國報告</td>
+                </tr>
+                <tr>
+                  <td class="text-center">政府機關之組織、職掌</td>
+                </tr>
+                <tr>
+                  <td class="text-center">政府機關之組織單位通訊</td>
+                </tr>
+                <tr>
+                  <td class="text-center">行政指導有關文書</td>
+                </tr>
+                <tr>
+                  <td class="text-center">施政計畫</td>
+                </tr>
+                <tr>
+                  <td class="text-center">市政統計、統計資料庫、統計年報</td>
+                </tr>
+                <tr>
+                  <td class="text-center">研究報告</td>
+                </tr>
+                <tr>
+                  <td class="text-center">委外研究計畫</td>
+                </tr>
+                <tr>
+                  <td class="text-center">預算書</td>
+                </tr>
+                <tr>
+                  <td class="text-center">決算書</td>
+                </tr>
+              </table>
             </div>
             <div className="mt-5">
               <nav aria-label="Page navigation example">

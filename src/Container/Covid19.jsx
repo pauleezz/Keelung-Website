@@ -15,8 +15,8 @@ class Covid19 extends Component {
           title="防疫專區"
           href={[
             ["首頁", "/", "/"],
-            ["基隆服務", "/", "/"],
-            ["防疫專區", "/"],
+            ["基隆服務", "/#keelung-service", "/"],
+            ["防疫專區", ""],
           ]}
         />
         <div className="app">

@@ -15,8 +15,8 @@ class LawService extends Component {
               title="法律服務"
               href={[
                 ["首頁", "/", "/"],
-                ["基隆服務", "/", "/"],
-                ["法律服務", "/"],
+                ["基隆服務", "/#keelung-service", "/"],
+                ["法律服務", ""],
               ]}
             />
             <div className="app">

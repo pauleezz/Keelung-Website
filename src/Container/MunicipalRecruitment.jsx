@@ -15,8 +15,8 @@ class MunicipalRecruitment extends Component {
           title="市府徵才"
           href={[
             ["首頁", "/", "/"],
-            ["政府服務", "/", "/"],
-            ["徵才資訊", "/"],
+            ["政府服務", "", "/"],
+            ["徵才資訊", ""],
           ]}
         />
         <div className="app">

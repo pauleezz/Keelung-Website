@@ -17,8 +17,8 @@ class Travel extends Component {
           title="旅遊觀光"
           href={[
             ["首頁", "/", "/"],
-            ["基隆服務", "/", "/"],
-            ["旅遊觀光", "/"],
+            ["基隆服務", "/#keelung-service", "/"],
+            ["旅遊觀光", ""],
           ]}
           sectionList={[
             ["魅力基隆", "/"],
@@ -148,6 +148,7 @@ class Travel extends Component {
               <div className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100">
                 活動
               </div>
+              <img src="/pictures/travel/travel-activity.png" />
             </div>
           </div>
           <div className="d-flex flex-column align-items-center justify-content-center big-block">

@@ -16,7 +16,7 @@ class NavbarCategoryDetail extends Component {
                     <div className={category[2]}>
                       <a href={item[1]} style={{color:"#707070", textDecoration: "none"}}>
                         <div
-                          className="d-flex justify-content-center mx-3 my-1"
+                          className="d-flex justify-content-center mr-5 my-1"
                           style={{ width: "65px", fontSize: "14px" }}
                         >
                           {item[0]}

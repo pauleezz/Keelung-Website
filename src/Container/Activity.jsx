@@ -15,8 +15,8 @@ class Activity extends Component {
               title="活動訊息"
               href={[
                 ["首頁", "/", "/"],
-                ["訊息快報", "/", "/"],
-                ["活動訊息", "/"],
+                ["訊息快報", "", "/"],
+                ["活動訊息", ""],
               ]}
             />
             <div className="app">
