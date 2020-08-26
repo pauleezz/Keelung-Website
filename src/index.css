@@ -359,7 +359,6 @@ td {
   font-weight: 500;
 }
 
-
 .table-tag {
   color: #ffffff;
   font-size: 14px;
@@ -370,6 +369,7 @@ td {
   padding-right: 5px;
   border-radius: 50px;
   min-width: 40px;
-  max-height: 25px
+  max-height: 25px;
 }
+
 /* h1 margin: 1em auto */

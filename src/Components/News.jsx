@@ -22,7 +22,7 @@ class News extends Component {
           </div>
           <div
             className="d-flex flex-column align-items-center"
-            style={{ height: "50vh", border: "solid 1px #65b017" }}
+            style={{ height: "340px", border: "solid 1px #65b017" }}
           >
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
               <li class="nav-item">
