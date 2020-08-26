@@ -16,10 +16,10 @@ class KeelungServiceIcon extends Component {
                 {text}
               </div>
               <div className="mask">
-                <span>{hint1}</span>
-                <span>{hint2}</span>
-                <span>{hint3}</span>
-                <span>{hint4}</span>
+                <div>{hint1}</div>
+                <div>{hint2}</div>                
+                <div>{hint3}</div>
+                <div>{hint4}</div>              
               </div>
             </a>
           </div>
