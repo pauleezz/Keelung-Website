@@ -22,7 +22,7 @@ class Navbar extends Component {
 
         <div className="col-7">
           <div className="d-flex justify-content-end nav-bar-gray my-1">
-            <a href="#">
+            <a href="#footer">
               <div className="mx-2 nav-bar-gray">網站導覽</div>
             </a>
 
@@ -95,24 +95,28 @@ class Navbar extends Component {
                     [
                       "主題服務",
                       [
-                        "醫療保健",
-                        "文化休閒",
-                        "社會福利",
-                        "交通服務",
-                        "觀光旅遊",
-                        "戶籍身份",
-                        "市民快線",
-                        "買屋賣屋",
-                        "勞工就業",
-                        "法律服務",
-                        "教育學習",
-                        "環境能源",
+                        ["醫療保健", "/keelung-service/medical"],
+                        ["文化休閒", "/keelung-service/leisure"],
+                        ["社會福利", "/keelung-service/social-welfare"],
+                        ["交通服務", "/keelung-service/traffic"],
+                        ["觀光旅遊", "/keelung-service/sightseeing"],
+                        ["戶籍身份", "/keelung-service/household"],
+                        ["市民快線", "/keelung-service/citizen-express"],
+                        ["買屋賣屋", "/keelung-service/housing"],
+                        ["勞工就業", "/keelung-service/labor-employment"],
+                        ["法律服務", "/keelung-service/law-service"],
+                        ["教育學習", "/keelung-service/education"],
+                        ["環境能源", "/keelung-service/environment"],
                       ],
                       ["col-6"],
                     ],
                     [
                       "分眾服務",
-                      ["基隆市民", "觀光旅遊", "非基隆市民"],
+                      [
+                        ["基隆市民", "/keelung-service/keelung-resident"],
+                        ["觀光旅遊", "/keelung-service/travel"],
+                        ["非基隆市民", "/keelung-service/non-keelung-resident"],
+                      ],
                       ["col-12"],
                     ],
                   ]}
@@ -141,32 +145,13 @@ class Navbar extends Component {
                     [
                       "本府各處網站",
                       [
-                        "社會處",
-                        "地政處",
-                        "交通處",
-                        "產業發展處",
-                        "綜合發展處",
-                        "政風處",
-                        "主計處",
-                      ],
-                      ["col-12"],
-                    ],
-                    [
-                      "附屬機關網站",
-                      [
-                        "基隆家庭教育中心",
-                        "動物保護防疫所",
-                        "文化局",
-                        "市立體育場",
-                        "稅務局",
-                        "市立仁愛之家",
-                        "市立殯葬管理所",
-                        "市立醫院",
-                        "公車處",
-                        "環保局",
-                        "衛生局",
-                        "消防局",
-                        "警察局",
+                        ["社會處"],
+                        ["地政處"],
+                        ["交通處"],
+                        ["產業發展處"],
+                        ["綜合發展處"],
+                        ["政風處"],
+                        ["主計處"],
                       ],
                       ["col-12"],
                     ],
@@ -181,7 +166,7 @@ class Navbar extends Component {
             </div>
           </nav>
         </div>
-        <div className="d-flex col-2">
+        <div className="d-flex w-100">
           <div className="d-flex align-items-center justify-content-center nav-bar-green w-50">
             <div className="d-flex align-items-center justify-content-center">
               <img src="/pictures/search-02.png" style={{ width: "20px" }} />

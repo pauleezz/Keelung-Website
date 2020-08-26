@@ -122,21 +122,21 @@ class NonKeelungResident extends Component {
                   src="/pictures/no-keelung-resident/household-1.png"
                   style={{ width: "80%" }}
                 />
-                市府徵才
+                土地房屋價格查詢
               </div>
               <div className="d-flex flex-column align-items-center justify-content-center col-4 col-lg-3">
                 <img
                   src="/pictures/no-keelung-resident/household-2.png"
                   style={{ width: "80%" }}
                 />
-                市府徵才
+                買屋、租屋補貼
               </div>
               <div className="d-flex flex-column align-items-center justify-content-center col-4 col-lg-3">
                 <img
                   src="/pictures/no-keelung-resident/household-3.png"
                   style={{ width: "80%" }}
                 />
-                市府徵才
+                土地房屋稅務
               </div>
             </div>
           </FullWidthBlock>

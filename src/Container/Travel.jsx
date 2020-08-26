@@ -33,7 +33,7 @@ class Travel extends Component {
           <div className="d-flex row align-items-center justify-content-center big-block">
             <div className="col-12 col-lg-6 end">
               <div className="d-flex justify-content-start home-title home-title-green my-3 w-100">
-                交通資訊
+                魅力基隆
               </div>
               <div className="mr-3">
                 魅力基隆為基隆市政府觀光及城市行銷處新聞科定期以季刊發行市政刊物

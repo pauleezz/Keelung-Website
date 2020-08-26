@@ -5,15 +5,17 @@ class Footer extends Component {
   render() {
     return (
       <>
-        <div className="footer">
+        <div className="footer" id="footer">
           <div className="d-flex footer-content row w-100">
             <div className="d-flex flex-column align-items-start col-12 col-xl-3 col-md-6">
-              <div className="d-flex flex-column align-items-center font-weight-bold mb-3">
-                <span style={{ fontSize: "30px" }}>基隆市政府</span>
-                <span style={{ fontSize: "11px" }}>
-                  Keelung City Government
-                </span>
-              </div>
+              <a href="/">
+                <div className="d-flex flex-column align-items-center font-weight-bold mb-3">
+                  <span style={{ fontSize: "30px" }}>基隆市政府</span>
+                  <span style={{ fontSize: "11px" }}>
+                    Keelung City Government
+                  </span>
+                </div>
+              </a>
               <div style={{ fontSize: "13px" }}>
                 <div className="mb-3">(20201)基隆市中正區義一路1號</div>
                 <div className="mb-3">
@@ -188,8 +190,9 @@ class Footer extends Component {
                 <span className="footer-title mb-3">市政資訊</span>
                 <ul className="footer-list">
                   <li>
-                    <a href="/municipal-information/bid-information-simplify">招標資訊</a>
-                    
+                    <a href="/municipal-information/bid-information-simplify">
+                      招標資訊
+                    </a>
                   </li>
                   <li>
                     <a href="/municipal-information/recruitment-information">
@@ -197,18 +200,20 @@ class Footer extends Component {
                     </a>
                   </li>
                   <li>
-                    <a href="/municipal-information/plan"></a>施政計畫
+                    <a href="/municipal-information/plan">施政計畫</a>
                   </li>
                   <li>
-                    <a href="/municipal-information/municipal-statistic"></a>
-                    市政統計
+                    <a href="/municipal-information/municipal-statistic">
+                      市政統計
+                    </a>
                   </li>
                   <li>
-                    <a href="/municipal-information/public-info"></a>
-                    政府公開資訊
+                    <a href="/municipal-information/public-info">
+                      政府公開資訊
+                    </a>
                   </li>
                   <li>
-                    <a href="/municipal-information/FAQ"></a>常見問題
+                    <a href="/municipal-information/FAQ">常見問題</a>
                   </li>
                 </ul>
               </div>

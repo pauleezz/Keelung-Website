@@ -35,7 +35,7 @@ class Canvas extends Component {
           </div> */}
         </div>
 
-        <img src="pictures/img_bg.png" className="w-100 bg-img" />
+        <img src="pictures/img_bg.png" className="w-100 bg-img" style={{height: "40vh"}}/>
       </div>
     );
   }

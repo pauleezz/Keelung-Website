@@ -14,12 +14,12 @@ class NavbarCategoryDetail extends Component {
                 {category[1].map((item) => {
                   return (
                     <div className={category[2]}>
-                      <a href="#" style={{color:"#707070", textDecoration: "none"}}>
+                      <a href={item[1]} style={{color:"#707070", textDecoration: "none"}}>
                         <div
                           className="d-flex justify-content-center mx-3 my-1"
-                          style={{ width: "90px", fontSize: "14px" }}
+                          style={{ width: "65px", fontSize: "14px" }}
                         >
-                          {item}
+                          {item[0]}
                         </div>
                       </a>
                     </div>
