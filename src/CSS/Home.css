@@ -194,3 +194,43 @@
   font-size: medium;
   font-weight: bold;
 } 
+.icon_crowd_but{
+  position: relative;
+  background-color: #f7f7f7;
+  border-radius: 10%;
+  width: 150px;
+  height: 150px;
+}
+.icon_crowd_but:hover .crowd_mask{
+  background-color: orange;
+  content: attr(hint1);
+  content: attr(hint2);
+  content: attr(hint3);
+  content: attr(hint4);
+  opacity: 1;
+  
+}
+.crowd_mask{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0px;
+  left:0px;
+  z-index: 1000;
+  opacity: 0;
+  background-color: orange;
+  border-radius: 10%;
+  width: 150px;
+  height: 150px;
+  color:white;
+  font-size: medium;
+  font-weight: bold;
+}
+.crowd_mask_col{
+  margin-top:5%;
+  margin-left:13%;
+  font-size: xx-small;
+  color:white;
+  float: left;
+}

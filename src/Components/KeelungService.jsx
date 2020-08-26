@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "../CSS/Home.css"
 import KeelungServiceIcon from "../Components/KeelungServiceIcon.jsx";
-
+import CrowdIcon from "../Components/CrowdIcon.jsx";
 class KeelungService extends Component {
     render() {
         return (
@@ -185,7 +185,7 @@ class KeelungService extends Component {
                     role="tabpanel"
                     aria-labelledby="pills-crowd-tab"
                   >
-                    <KeelungServiceIcon
+                    <CrowdIcon
                       icon_img="icon-13.png"
                       text="基隆市民"
                       href="/keelung-service/medical"
@@ -195,9 +195,9 @@ class KeelungService extends Component {
                       hint3="房屋稅務"
                       hint4="交通服務"
                     />
-                    <KeelungServiceIcon
+                    <CrowdIcon
                       icon_img="icon-14.png"
-                      text=""
+                      text="旅遊觀光"
                       href="/keelung-service/medical"
                       colnum = "col-4"
                       hint1="魅力基隆"
@@ -205,7 +205,7 @@ class KeelungService extends Component {
                       hint3="交通資訊"
                       hint4="近期活動"
                     />
-                    <KeelungServiceIcon
+                    <CrowdIcon
                       icon_img="icon-15.png"
                       text="非基隆市民"
                       href="/keelung-service/medical"
