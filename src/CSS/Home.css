@@ -139,6 +139,14 @@
   width: 100px;
 }
 
+.navbar-nav a{
+  text-decoration: inherit;
+}
+.navbar-nav a:focus{
+  text-decoration: inherit;
+  color: inherit;
+  background-color:inherit;
+} 
 
 .icon_but {
   position: relative;
@@ -148,14 +156,13 @@
   height: 150px;
 }
 
-#keelung-service #pills-topic-tab.active {
+#pills-topic-tab.active,.normal{
   font-size: 30px;
   color: #65b017 ;
   background-color: whitesmoke;
 }
 
-
-#keelung-service #pills-crowd-tab.normal {
+#pills-crowd-tab.normal {
   font-size: 30px;
   color: #ffffff;
   background-color: #65b017;
@@ -184,6 +191,6 @@
   width: 150px;
   height: 150px;
   color:white;
-  font-size: large;
+  font-size: medium;
   font-weight: bold;
 } 

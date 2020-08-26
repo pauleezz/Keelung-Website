@@ -12,7 +12,7 @@ class KeelungServiceIcon extends Component {
           <div className="d-flex flex-column align-items-center justify-content-center">
             <a href={href}>
               <img src={`/pictures/${icon_img}`} style={{ width: "50%" }} />
-              <div className="" style={{ fontWeight: "bold", fontSize:"x-large"}}>
+              <div className="" style={{fontSize:"x-large"}}>
                 {text}
               </div>
               <div className="mask">
@@ -20,7 +20,7 @@ class KeelungServiceIcon extends Component {
                 <div>{hint2}</div>                
                 <div>{hint3}</div>
                 <div>{hint4}</div>              
-              </div>
+            </div>
             </a>
           </div>
         </button>
