@@ -21,17 +21,20 @@ class NonKeelungResident extends Component {
             ["非基隆市民", ""],
           ]}
           sectionList={[
-            ["市民快線", "/"],
-            ["徵才資訊", "/"],
-            ["企業資訊", "/"],
-            ["買屋賣屋", "/"],
-            ["交通服務", "/"],
+            ["市民快線", "#non-citizen-express"],
+            ["徵才資訊", "#non-recruitment-information"],
+            ["企業資訊", "#corp-info"],
+            ["買屋賣屋", "#housing"],
+            ["交通服務", "#traffic"],
           ]}
           top="-26px"
         />
         <div className="app">
           <div className="d-flex flex-column align-items-center justify-content-center big-block">
-            <div className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100">
+            <div
+              className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100"
+              id="non-citizen-express"
+            >
               市民快線
             </div>
             <div className="d-flex my-3">
@@ -71,7 +74,10 @@ class NonKeelungResident extends Component {
           </div>
           <div className="d-flex align-items-center justify-content-center big-block w-100 row">
             <div className="d-flex flex-column align-items-center justify-content-center col-12 col-lg-6">
-              <div className="d-flex justify-content-center home-title home-title-green my-3 w-100">
+              <div
+                className="d-flex justify-content-center home-title home-title-green my-3 w-100"
+                id="non-recruitment-information"
+              >
                 徵才資訊
               </div>
               <div class="d-flex justify-content-center">
@@ -91,7 +97,7 @@ class NonKeelungResident extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-lg-6">
+            <div className="col-12 col-lg-6" id="corp-info">
               <GreenBlock
                 title={"企業資訊"}
                 serviceList={[
@@ -114,7 +120,10 @@ class NonKeelungResident extends Component {
             className="col-12 d-flex flex-column justify-content-center align-items-center big-block"
           >
             <div class="d-flex justify-content-center row">
-              <div className="d-flex align-items-start justify-content-center home-title home-title-green col-12 col-lg-3">
+              <div
+                className="d-flex align-items-start justify-content-center home-title home-title-green col-12 col-lg-3"
+                id="housing"
+              >
                 買屋賣屋
               </div>
               <div className="d-flex flex-column align-items-center justify-content-center col-4 col-lg-3">
@@ -142,7 +151,10 @@ class NonKeelungResident extends Component {
           </FullWidthBlock>
 
           <div className="d-flex flex-column align-items-center justify-content-center big-block">
-            <div className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100">
+            <div
+              className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100"
+              id="traffic"
+            >
               交通服務
             </div>
             <div className="d-flex my-3">

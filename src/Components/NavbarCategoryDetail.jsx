@@ -8,20 +8,32 @@ class NavbarCategoryDetail extends Component {
       return categories.map(
         (category) => {
           return (
-            <div className="d-flex flex-column align-items-center justify-content-center w-100 mx-4">
+            <div
+              className="d-flex flex-column align-items-center justify-content-center mx-4"
+              style={{ width: "auto" }}
+            >
               <div className="green-item mb-2">&gt; {category[0]}</div>
-              <div className="d-flex align-items-center justify-content-center row">
+              <div className="d-flex align-items-center justify-content-center row w-100">
                 {category[1].map((item) => {
                   return (
                     <div className={category[2]}>
-                      <a href={item[1]} style={{color:"#707070", textDecoration: "none"}}>
+                      <div className="">
                         <div
-                          className="d-flex justify-content-center mr-5 my-1"
-                          style={{ width: "65px", fontSize: "14px" }}
+                          className="d-flex align-items-center justify-content-center my-1"
+                          style={{ width: "130px", fontSize: "14px" }}
                         >
-                          {item[0]}
+                          <a
+                            href={item[1]}
+                            style={{
+                              color: "#707070",
+                              textDecoration: "none",
+                              width: "100%",
+                            }}
+                          >
+                            {item[0]}
+                          </a>
                         </div>
-                      </a>
+                      </div>
                     </div>
                   );
                 })}

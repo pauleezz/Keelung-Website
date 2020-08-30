@@ -24,24 +24,28 @@ class Home extends Component {
               <span className="home-title-gray">APPLICATION & SUBSIDY</span>
               <span className="home-title-green">補助 / 申辦專區</span>
             </div>
-            <div className="d-flex row">
-              <div className="subsidy-blcok col-12 col-lg-6 mb-2">
-                <img
-                  src="pictures/annie-spratt-U_Ff4ohzLSw-unspl.png"
-                  className="subsidy-image"
-                />
-                <button className="subsidy-title d-flex align-items-center justify-content-center">
-                  <a href="/online-apply/service">補助申請服務</a>
-                </button>
+            <div className="d-flex row align-items-center justify-content-center">
+              <div className="d-flex flex-column align-items-end justify-content-center subsidy-block col-12 col-lg-6 mb-2">
+                <div style={{ width: "70%" }}>
+                  <img
+                    src="pictures/annie-spratt-U_Ff4ohzLSw-unspl.png"
+                    className="subsidy-image"
+                  />
+                  <button className="subsidy-title d-flex align-items-center justify-content-center">
+                    <a href="/online-apply/service">補助申請服務</a>
+                  </button>
+                </div>
               </div>
-              <div className="subsidy-blcok col-12 col-lg-6 mb-2">
-                <img
-                  src="pictures/avel-chuklanov-DUmFLtMeAbQ-uns.png"
-                  className="subsidy-image"
-                />
-                <button className="subsidy-title d-flex align-items-center justify-content-center">
-                  <a href="/online-apply">線上申辦專區</a>
-                </button>
+              <div className="d-flex flex-column align-items-start justify-content-center subsidy-block col-12 col-lg-6 mb-2">
+                <div style={{ width: "70%" }}>
+                  <img
+                    src="pictures/avel-chuklanov-DUmFLtMeAbQ-uns.png"
+                    className="subsidy-image"
+                  />
+                  <button className="subsidy-title d-flex align-items-center justify-content-center">
+                    <a href="/online-apply">線上申辦專區</a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -49,7 +53,7 @@ class Home extends Component {
           <News />
 
           <CharmKeelung />
-          <div className="big-block" id="revolustion">
+          <div className="big-block" id="revolution">
             <div className="d-flex flex-column align-items-start justify-content-center home-title mb-3">
               <span className="home-title-gray">RE-EVOLUTION OF KEELUNG</span>
               <span className="home-title-green">基隆再進化</span>
@@ -88,8 +92,8 @@ class Home extends Component {
               <span className="home-title-gray">STATISTICS</span>
               <span className="home-title-green">統計指標</span>
             </div>
-            <div>
-              <img src="/pictures/statistic.png" style={{ width: "100%" }} />
+            <div className="d-flex justify-content-center">
+              <img src="/pictures/statistic.png" style={{ width: "70%" }} />
             </div>
           </div>
 

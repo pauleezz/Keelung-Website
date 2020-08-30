@@ -21,17 +21,17 @@ class KeelungIntro extends Component {
         />
         <div className="app">
           <div className="d-flex row big-block" style={{ maxHeight: "720px" }}>
-            <div className="d-flex flex-column align-items-center justify-content-center col-12 col-lg-6">
+            <div className="d-flex flex-column align-items-center justify-content-center col-12 col-lg-5">
               <img
                 src="/pictures/keelung-intro/keelung-intro-1.png"
-                style={{ maxWidth: "60%", margin: "30px" }}
+                style={{ maxWidth: "40%", margin: "30px" }}
               />
               <img
                 src="/pictures/keelung-intro/keelung-intro-2.png"
-                style={{ maxWidth: "60%", margin: "30px" }}
+                style={{ maxWidth: "40%", margin: "30px" }}
               />
             </div>
-            <div className="d-flex flex-column align-items-center justify-content-center col-12 col-lg-6">
+            <div className="d-flex flex-column align-items-center justify-content-center col-12 col-lg-7">
               <div className="d-flex justify-content-start home-title home-title-green my-3 w-100">
                 基隆簡介
               </div>
@@ -56,7 +56,7 @@ class KeelungIntro extends Component {
                 <div className="d-flex flex-column align-items-center justify-content-center col-4">
                   <img
                     src="/pictures/keelung-intro/badge.png"
-                    style={{ width: "100%" }}
+                    style={{ width: "80%" }}
                   />
                   <div className="home-title-green mt-3 bold">基隆市徽</div>
                 </div>
@@ -76,7 +76,7 @@ class KeelungIntro extends Component {
                 <div className="d-flex flex-column align-items-center justify-content-center col-4">
                   <img
                     src="/pictures/keelung-intro/song.png"
-                    style={{ width: "100%" }}
+                    style={{ width: "80%" }}
                   />
                   <div className="home-title-green mt-3 bold">基隆市市歌</div>
                 </div>
@@ -139,10 +139,10 @@ class KeelungIntro extends Component {
           </div>
           <div className="d-flex flex-column row big-block">
             <div className="d-flex my-3">
-              <div className="d-flex flex-column col-5">
+              <div className="d-flex flex-column align-items-center justify-content-center col-5">
                 <img
                   src="/pictures/keelung-intro/bird.png"
-                  style={{ width: "100%" }}
+                  style={{ width: "60%" }}
                 />
                 <div className="d-flex align-items-center justify-content-center home-title-green mt-3 bold">
                   基隆市鳥
@@ -164,10 +164,10 @@ class KeelungIntro extends Component {
               </div>
             </div>
             <div className="d-flex my-3">
-              <div className="d-flex flex-column col-5">
+              <div className="d-flex flex-column align-items-center justify-content-center col-5">
                 <img
                   src="/pictures/keelung-intro/fish.png"
-                  style={{ width: "100%" }}
+                  style={{ width: "60%" }}
                 />
                 <div className="d-flex align-items-center justify-content-center home-title-green mt-3 bold">
                   基隆市魚

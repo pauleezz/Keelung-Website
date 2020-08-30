@@ -73,7 +73,6 @@ class Navbar extends Component {
                     ["地理環境", "/know-keelung/geography"],
                     ["發現基隆", "/know-keelung/discover-keelung"],
                   ]}
-                  colnum="col-3"
                 />
                 <NavbarCategory
                   category="市府團隊"
@@ -83,7 +82,6 @@ class Navbar extends Component {
                     ["組織架構", "/about/organization"],
                     ["市政顧問", "/about/administration"],
                   ]}
-                  colnum=""
                 />
                 {/* <NavbarCategory
                   category="基隆服務"
@@ -137,7 +135,6 @@ class Navbar extends Component {
                     ["市政公開資訊", "/municipal-information/public-info"],
                     ["常見問題", "/municipal-information/FAQ"],
                   ]}
-                  colnum="col-4"
                 />
                 <NavbarCategoryDetail
                   category="機關網站"
@@ -145,13 +142,13 @@ class Navbar extends Component {
                     [
                       "本府各處網站",
                       [
-                        ["社會處"],
-                        ["地政處"],
-                        ["交通處"],
-                        ["產業發展處"],
-                        ["綜合發展處"],
-                        ["政風處"],
-                        ["主計處"],
+                        ["社會處", "https://social.klcg.gov.tw/"],
+                        ["地政處", "https://land.klcg.gov.tw/"],
+                        ["交通處", "https://tourism.klcg.gov.tw/"],
+                        ["產業發展處", "https://economy.klcg.gov.tw/"],
+                        ["綜合發展處", "https://development.klcg.gov.tw/"],
+                        ["政風處", "https://ethics.klcg.gov.tw/"],
+                        ["主計處", "https://accounting.klcg.gov.tw/"],
                       ],
                       ["col-12"],
                     ],

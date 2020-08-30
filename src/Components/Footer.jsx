@@ -59,15 +59,15 @@ class Footer extends Component {
                 <div class="d-flex mt-5">
                   <img
                     src="/pictures/keelung-resident/contact-07.png"
-                    className="col-3"
+                    className="col-4 h-100"
                   />
                   <img
                     src="/pictures/keelung-resident/contact-08.png"
-                    className="col-3"
+                    className="col-4 h-100"
                   />
                   <img
                     src="/pictures/keelung-resident/contact-09.png"
-                    className="col-3"
+                    className="col-4 h-100"
                   />
                 </div>
               </div>

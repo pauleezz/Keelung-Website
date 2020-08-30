@@ -21,18 +21,21 @@ class Travel extends Component {
             ["旅遊觀光", ""],
           ]}
           sectionList={[
-            ["魅力基隆", "/"],
-            ["你的基隆", "/"],
-            ["天氣/活動", "/"],
-            ["主題旅遊", "/"],
-            ["交通資訊", "/"],
+            ["魅力基隆", "#charming-keelung"],
+            ["你的基隆", "#your-keelung"],
+            ["天氣/活動", "#weather"],
+            ["主題旅遊", "#cat-travel"],
+            ["交通資訊", "#travel-traffic"],
           ]}
           top="-26px"
         />
         <div className="app">
           <div className="d-flex row align-items-center justify-content-center big-block">
             <div className="col-12 col-lg-6 end">
-              <div className="d-flex justify-content-start home-title home-title-green my-3 w-100">
+              <div
+                className="d-flex justify-content-start home-title home-title-green my-3 w-100"
+                id="charming-keelung"
+              >
                 魅力基隆
               </div>
               <div className="mr-3">
@@ -122,7 +125,7 @@ class Travel extends Component {
             className="col-12 d-flex row justify-content-center align-items-center big-block"
           >
             <div className="col-12 col-lg-6 end">
-              <div className="d-flex justify-content-start home-title home-title-green my-3 w-100">
+              <div className="d-flex justify-content-start home-title home-title-green my-3 w-100" id="your-keelung">
                 你的基隆
               </div>
               <div className="mr-3">
@@ -136,7 +139,7 @@ class Travel extends Component {
           </FullWidthBlock>
           <div className="d-flex row align-items-center justify-content-center big-block">
             <div className="col-12 col-lg-6">
-              <div className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100">
+              <div className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100" id="weather">
                 天氣
               </div>
               <img
@@ -152,7 +155,7 @@ class Travel extends Component {
             </div>
           </div>
           <div className="d-flex flex-column align-items-center justify-content-center big-block">
-            <div className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100">
+            <div className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100" id="cat-travel">
               主題旅遊
             </div>
             <div class="d-flex justify-content-center">
@@ -164,7 +167,7 @@ class Travel extends Component {
             </div>
           </div>
           <div className="d-flex flex-column align-items-center justify-content-center big-block">
-            <div className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100">
+            <div className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100" id="travel-traffic">
               交通資訊
             </div>
             <div className="d-flex my-3">

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import ImageContent from "../Components/ImageContent.jsx";
+import ImageContentSection from "../Components/ImageContentSection.jsx";
 import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
 import FullWidthBlock from "../Components/FullWidthBlock.jsx";
@@ -12,7 +12,7 @@ class DiscoverKeelung extends Component {
     return (
       <div>
         <Navbar />
-        <ImageContent
+        <ImageContentSection
           img="/pictures/travel/img_bg.png"
           title="發現基隆"
           href={[
@@ -20,11 +20,22 @@ class DiscoverKeelung extends Component {
             ["認識基隆", "", "/"],
             ["發現基隆", ""],
           ]}
+          sectionList={[
+            ["魅力基隆", "#discover-charm"],
+            ["你的基隆", "#discover-your-keelung"],
+            ["天氣/活動", "#discover-weather"],
+            ["主題旅遊", "#discover-travel"],
+            ["交通資訊", "#discover-traffic"],
+          ]}
+          top="-26px"
         />
         <div className="app">
           <div className="d-flex row align-items-center justify-content-center big-block">
             <div className="col-12 col-lg-6 end">
-              <div className="d-flex justify-content-start home-title home-title-green my-3 w-100">
+              <div
+                className="d-flex justify-content-start home-title home-title-green my-3 w-100"
+                id="discover-charm"
+              >
                 魅力基隆
               </div>
               <div className="mr-3">
@@ -114,7 +125,10 @@ class DiscoverKeelung extends Component {
             className="col-12 d-flex row justify-content-center align-items-center big-block"
           >
             <div className="col-12 col-lg-6 end">
-              <div className="d-flex justify-content-start home-title home-title-green my-3 w-100">
+              <div
+                className="d-flex justify-content-start home-title home-title-green my-3 w-100"
+                id="discover-your-keelung"
+              >
                 你的基隆
               </div>
               <div className="mr-3">
@@ -126,28 +140,34 @@ class DiscoverKeelung extends Component {
               <img src="/pictures/travel/map.png" style={{ width: "100%" }} />
             </div>
           </FullWidthBlock>
-          <div className="d-flex row align-items-center justify-content-center big-block">
-            <div className="col-12 col-lg-6">
+          <div
+            className="d-flex row align-items-center justify-content-center big-block"
+            id="discover-weather"
+          >
+            <div className="d-flex flex-column align-items-center justify-content-center col-12 col-lg-6">
               <div className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100">
                 天氣
               </div>
               <img
                 src="/pictures/travel/weather.png"
-                style={{ width: "100%" }}
+                style={{ width: "70%" }}
               />
             </div>
-            <div className="col-12 col-lg-6">
+            <div className="d-flex flex-column align-items-center justify-content-center col-12 col-lg-6">
               <div className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100">
                 活動
               </div>
               <img
                 src="/pictures/travel/travel-activity.png"
-                style={{ width: "100%" }}
+                style={{ width: "70%" }}
               />
             </div>
           </div>
           <div className="d-flex flex-column align-items-center justify-content-center big-block">
-            <div className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100">
+            <div
+              className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100"
+              id="discover-travel"
+            >
               主題旅遊
             </div>
             <div class="d-flex justify-content-center">
@@ -159,7 +179,10 @@ class DiscoverKeelung extends Component {
             </div>
           </div>
           <div className="d-flex flex-column align-items-center justify-content-center big-block">
-            <div className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100">
+            <div
+              className="d-flex align-items-center justify-content-center home-title home-title-green my-3 w-100"
+              id="discover-traffic"
+            >
               交通資訊
             </div>
             <div className="d-flex my-3">

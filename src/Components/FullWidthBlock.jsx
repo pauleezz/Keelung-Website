@@ -5,7 +5,7 @@ class FullWidthBlock extends Component {
         return (
             <div
             className={
-              `bg-light-block py-${this.props.py} my-${this.props.my} ` +
+              `bg-light-block py-${this.props.py} ` +
               this.props.className
             }
             style={{ background: "#F7F7F7" }}

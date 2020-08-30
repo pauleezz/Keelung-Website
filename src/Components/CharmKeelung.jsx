@@ -12,7 +12,7 @@ class CharmKeelung extends Component {
               id="carouselExampleControls"
               class="carousel slide"
               data-ride="carousel"
-              style={{width:"85%"}}
+              style={{width:"60%"}}
             >
               <div class="carousel-inner">
                 <div class="carousel-item active">

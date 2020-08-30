@@ -49,7 +49,7 @@ class ImageContentSection extends Component {
               "linear-gradient(to left, rgba(0,0,0,0), rgba(255,255,255,100))",
             position: "absolute",
             zIndex: "1",
-            top: "18%",
+            top: "160px",
             left: "10%",
             overflow: "hidden",
           }}
